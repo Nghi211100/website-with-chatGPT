@@ -12,7 +12,7 @@ export default function Layout({
     <div className="min-h-screen bg-slate-50 font-sans">
       <title>{title}</title>
       <Header />
-      <div className="py-20 max-w-5xl mx-auto">{children}</div>
+      <div className="md:pt-[117px] pt-[96px]">{children}</div>
       <Footer />
     </div>
   );

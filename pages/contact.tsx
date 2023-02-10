@@ -1,4 +1,4 @@
-import Contact from "@/component/Contact";
+import Contact from "@/component/contact/Contact";
 import Layout from "@/component/Layout";
 
 export default function index() {
