@@ -5,47 +5,9 @@ export default function Contact() {
   const { t } = useTranslation();
   return (
     <div className="relative py-6">
+      <p className="text-3xl lg:text-4xl font-bold py-6">Contact us</p>
       <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
-        <div className="bg-gray-50 p-6 lg:col-span-2">
-          <div className="mx-auto max-w-lg">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-              {t("contact.title")}
-            </h2>
-            <p className="mt-3 text-lg leading-6 text-gray-500">
-              {t("contact.description")}
-            </p>
-            <dl className="mt-8 text-base text-gray-500">
-              <div>
-                <dt className="sr-only">{t("contact.address")}</dt>
-                <dd>
-                  <p>{t("contact.adddt01")}</p>
-                  <p>{t("contact.adddt02")}</p>
-                </dd>
-              </div>
-              <div className="mt-6">
-                <dt className="sr-only">{t("contact.phone")}</dt>
-                <dd className="flex">
-                  <PhoneIcon
-                    className="h-6 w-6 flex-shrink-0 text-gray-400"
-                    aria-hidden="true"
-                  />
-                  <span className="ml-3">+84 12-345-678</span>
-                </dd>
-              </div>
-              <div className="mt-3">
-                <dt className="sr-only">Email</dt>
-                <dd className="flex">
-                  <EnvelopeIcon
-                    className="h-6 w-6 flex-shrink-0 text-gray-400"
-                    aria-hidden="true"
-                  />
-                  <span className="ml-3">support@gmai;.com</span>
-                </dd>
-              </div>
-            </dl>
-          </div>
-        </div>
-        <div className="bg-white p-6 lg:col-span-3 shadow-lg rounded-lg">
+        <div className="bg-white p-6 shadow-lg rounded-lg lg:col-span-2">
           <div className="mx-auto max-w-lg lg:max-w-none">
             <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">
               <div>
@@ -109,6 +71,17 @@ export default function Contact() {
                 </button>
               </div>
             </form>
+          </div>
+        </div>
+        <div className="lg:col-span-3">
+          <div className="mx-auto w-full h-full p-6 shadow-lg bg-white">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2865708020836!2d106.69788995088277!3d10.789349661866394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528b555c872a7%3A0xd4c90543ff33dc01!2zNTYgTmd1eeG7hW4gxJDDrG5oIENoaeG7g3UsIMSQYSBLYW8sIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1676015715105!5m2!1svi!2s"
+              className="border w-full h-full"
+              allowFullScreen={false}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>

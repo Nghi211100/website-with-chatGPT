@@ -5,6 +5,7 @@ import Layout from "@/component/layout/Layout";
 import HeroSection from "@/component/home/HeroSection";
 import Portfolio from "@/component/home/Portfolio";
 import Services from "@/component/home/Services";
+import Contact from "@/component/home/Contact";
 
 export default function index() {
   return (
@@ -19,6 +20,7 @@ export default function index() {
             <Team />
             <Testimonials />
           </div>
+          <Contact />
         </div>
       </Layout>
     </>
