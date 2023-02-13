@@ -19,16 +19,88 @@
         "description": "Mang lại trải nghiệm người dùng tốt, gần gũi với người dùng để cải thiện ứng dụng để đáp ứng tất cả các yêu cầu từ người dùng",
         "delivery": "Cung cấp",
         "efficiency": "Hiệu suất",
-        "customer": "khách hàng"
+        "customer": "khách hàng"      
     },
     "header":{
         "home": "Trang chủ",
         "about": "Về chúng tôi",
         "services": "Dịch vụ",
-        "contact": "Liên hệ"
+        "contact": "Liên hệ",
+        "portfolio": "Thành tựu"
+    },
+    "footer":{
+        "title": "Theo dõi bản tin của chúng tôi",
+        "description": "Các tin tức, bài báo và tài nguyên mới nhất được gửi đến hộp thư đến của bạn hàng tuần.",
+        "emailAddress": "Địa chỉ Email",
+        "subscribe": "Đăng ký",
+        "enterEmail": "Nhập email của bạn"
     },
     "language":{
         "english": "Tiếng anh",
         "vietnamese": "Tiếng việt"
-    }
+    },
+    "services": {
+        "title": "Các dịch vụ của chúng tôi",
+        "description": "Chuyên về phát triển phần mềm, chuyên môn trong việc tạo trang web và giải pháp trực tuyến, giải pháp sáng tạo phù hợp với nhu cầu cụ thể của bạn, đội ngũ nhà phát triển và thiết kế giàu kinh nghiệm, quản lý dự án chuyên dụng để đảm bảo giao hàng kịp thời",
+        "service01": {
+            "name": "Phát triển ứng dụng web",
+            "description": "Chúng tôi chuyên phát triển các ứng dụng web tùy chỉnh đáp ứng các yêu cầu kinh doanh riêng của bạn."
+        },
+        "service02": {
+            "name": "Phát triển ứng dụng di động",
+            "description": "Chúng tôi thiết kế và phát triển các ứng dụng dành cho thiết bị di động mang lại trải nghiệm người dùng liền mạch trên tất cả các thiết bị."
+        },
+        "service03": {
+            "name": "Giải pháp và Dịch vụ Đám mây",
+            "description": "Nhóm chuyên gia của chúng tôi có thể giúp bạn tận dụng sức mạnh của công nghệ đám mây để đạt được các mục tiêu kinh doanh của mình."
+        },
+        "viewAll": "Xem tất cả"
+    },
+    "portfolio": {
+        "title": "Danh mục thành tựu",
+        "description": "Dưới đây là một số thành tựu dự án của chúng tôi"
+    },
+    "team": {
+        "title": "Các thành viên của chúng tôi",
+        "description": "Chúng tôi là một nhóm năng động gồm những cá nhân đam mê những gì chúng tôi làm và tận tâm mang lại kết quả tốt nhất cho khách hàng của mình."
+    },
+    "about": {
+        "title": "Về chúng tôi",
+        "content": {
+            "content01": "Công ty chúng tôi là nhà cung cấp giải pháp công nghệ phần mềm hàng đầu cho các doanh nghiệp thuộc mọi quy mô. Chúng tôi đã ở trong ngành trong nhiều năm và có uy tín trong việc cung cấp phần mềm chất lượng cao đáp ứng nhu cầu độc đáo của khách hàng của chúng tôi.",
+            "content02": "Nhóm của chúng tôi bao gồm các kỹ sư phần mềm, nhà thiết kế và quản lý dự án giàu kinh nghiệm làm việc cùng nhau để tạo ra các giải pháp phần mềm sáng tạo và hiệu quả. Chúng tôi luôn cập nhật các công nghệ và xu hướng mới nhất trong ngành để đảm bảo rằng khách hàng của chúng tôi nhận được các giải pháp phần mềm tiên tiến nhất hiện có.",
+            "content03": "Mục tiêu của chúng tôi là giúp khách hàng hợp lý hóa hoạt động kinh doanh của họ, tăng hiệu quả, và phát triển lợi nhuận của họ. chúng tôi tin vào phát triển quan hệ đối tác lâu dài với khách hàng của chúng tôi và cung cấp hỗ trợ khách hàng đặc biệt trong suốt vòng đời của phần mềm.",
+            "content04": "Nếu bạn đang tìm kiếm một đối tác công nghệ phần mềm mà bạn có thể tin tưởng, không tìm đâu xa. Liên hệ với chúng tôi hôm nay để tìm hiểu làm thế nào chúng tôi có thể giúp doanh nghiệp của bạn thành công."
+        },
+        "questions": {
+            "title": "Các câu hỏi thường gặp",
+            "cantlookingfor": "Không thể tìm thấy câu trả lời mà bạn đang tìm kiếm? Tiếp cận với chúng tôi đội ngũ",
+            "support": " hỗ trợ khách hàng",
+            "team": "",
+            "question01": {
+                "question": "Bạn cung cấp dịch vụ gì?",
+                "answer": "Chúng tôi cung cấp nhiều giải pháp công nghệ phần mềm cho các doanh nghiệp thuộc mọi quy mô, bao gồm phát triển phần mềm tùy chỉnh, phát triển ứng dụng và dịch vụ điện toán đám mây."
+            },
+            "question02": {
+                "question": "Quy trình phát triển phần mềm của bạn là gì?",
+                "answer": "Quy trình phát triển phần mềm của chúng tôi liên quan đến sự hợp tác chặt chẽ với khách hàng để hiểu nhu cầu và yêu cầu riêng của họ. Sau đó, chúng tôi sử dụng thông tin này để tạo giải pháp tùy chỉnh đáp ứng nhu cầu cụ thể của họ."
+            },
+            "question03": {
+                "question": "Mất bao lâu để phát triển một giải pháp phần mềm tùy chỉnh?",
+                "answer": "Thời gian cần thiết để phát triển một giải pháp phần mềm tùy chỉnh phụ thuộc vào phạm vi và mức độ phức tạp của dự án. Nhóm của chúng tôi sẽ cung cấp một mốc thời gian ước tính trong giai đoạn lập kế hoạch của dự án."
+            }
+        }
+    },
+    "contact": {
+        "title": "Liên hệ",
+        "description": "Hãy cho chúng tôi biết về câu hỏi của bạn, chúng tôi sẽ trả lời ngay khi có thể.",
+        "address": "Địa chỉ",
+        "adddt01": "56 đường Nguyễn Đình Chiểu",
+        "adddt02": "Phường ĐaKao, quận 1, TP. Hồ Chí Minh",
+        "phone": "Số điện thoại",
+        "fullname": "Tên đầy đủ",
+        "message": "Thông điệp",
+        "submit": "Gửi",
+        "location": "Vị trí trên bản đồ"
+    }  
 }

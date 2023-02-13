@@ -1,40 +1,38 @@
-/* This example requires Tailwind CSS v3.0+ */
-const faqs = [
-  {
-    question: "What services do you offer?",
-    answer:
-      "We offer a range of software technology solutions for businesses of all sizes, including custom software development, app development, and cloud computing services.",
-  },
-  {
-    question: "What is your process for developing software?",
-    answer:
-      "Our process for developing software involves close collaboration with our clients to understand their unique needs and requirements. We then use this information to create a customized solution that meets their specific needs.",
-  },
-  {
-    question: "How long does it take to develop a custom software solution?",
-    answer:
-      "The time it takes to develop a custom software solution depends on the scope and complexity of the project. Our team will provide an estimated timeline during the planning phase of the project.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export default function Questions() {
+  const { t } = useTranslation();
+  const faqs = [
+    {
+      question: t("about.questions.question01.question"),
+      answer: t("about.questions.question01.answer"),
+    },
+    {
+      question: t("about.questions.question02.question"),
+      answer: t("about.questions.question02.answer"),
+    },
+    {
+      question: t("about.questions.question03.question"),
+      answer: t("about.questions.question03.answer"),
+    },
+  ];
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-14 sm:pt-32 lg:py-32 lg:px-8">
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-5">
             <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
-              Frequently asked questions
+              {t("about.questions.title")}
             </h2>
             <p className="mt-4 text-base leading-7 text-gray-600">
-              Can’t find the answer you’re looking for? Reach out to our{" "}
+              {t("about.questions.cantlookingfor")}
               <a
                 href="/contact"
                 className="font-semibold text-indigo-600 hover:text-indigo-500"
               >
-                customer support
-              </a>{" "}
-              team.
+                {t("about.questions.support")}
+              </a>
+              {t("about.questions.team")}.
             </p>
           </div>
           <div className="mt-10 lg:col-span-7 lg:mt-0">

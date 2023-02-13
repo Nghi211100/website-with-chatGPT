@@ -1,28 +1,29 @@
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
+  const { t } = useTranslation();
   return (
     <div className="relative py-6">
       <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
         <div className="bg-gray-50 py-16 pr-6 lg:col-span-2 lg:py-24 xl:pr-12">
           <div className="mx-auto max-w-lg">
             <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-              Contact
+              {t("contact.title")}
             </h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
-              Let us know about your question, we will reply as soon as
-              possible.
+              {t("contact.description")}
             </p>
             <dl className="mt-8 text-base text-gray-500">
               <div>
-                <dt className="sr-only">Address</dt>
+                <dt className="sr-only">{t("contact.address")}</dt>
                 <dd>
-                  <p>56 Nguyen Dinh Chieu Street</p>
-                  <p>Dakao Ward, 1 District, Ho Chi Minh City</p>
+                  <p>{t("contact.adddt01")}</p>
+                  <p>{t("contact.adddt02")}</p>
                 </dd>
               </div>
               <div className="mt-6">
-                <dt className="sr-only">Phone number</dt>
+                <dt className="sr-only">{t("contact.phone")}</dt>
                 <dd className="flex">
                   <PhoneIcon
                     className="h-6 w-6 flex-shrink-0 text-gray-400"
@@ -49,7 +50,7 @@ export default function Contact() {
             <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">
               <div>
                 <label htmlFor="full-name" className="sr-only">
-                  Full name
+                  {t("contact.fullname")}
                 </label>
                 <input
                   type="text"
@@ -57,7 +58,7 @@ export default function Contact() {
                   id="full-name"
                   autoComplete="name"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                  placeholder="Full name"
+                  placeholder={`${t("contact.fullname")}`}
                 />
               </div>
               <div>
@@ -75,7 +76,7 @@ export default function Contact() {
               </div>
               <div>
                 <label htmlFor="phone" className="sr-only">
-                  Phone
+                  {t("contact.phone")}
                 </label>
                 <input
                   type="text"
@@ -83,19 +84,19 @@ export default function Contact() {
                   id="phone"
                   autoComplete="tel"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                  placeholder="Phone"
+                  placeholder={`${t("contact.phone")}`}
                 />
               </div>
               <div>
                 <label htmlFor="message" className="sr-only">
-                  Message
+                  {t("contact.message")}
                 </label>
                 <textarea
                   id="message"
                   name="message"
                   rows={4}
                   className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                  placeholder="Message"
+                  placeholder={`${t("contact.message")}`}
                   defaultValue={""}
                 />
               </div>
@@ -104,7 +105,7 @@ export default function Contact() {
                   type="submit"
                   className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
-                  Submit
+                  {t("contact.submit")}
                 </button>
               </div>
             </form>

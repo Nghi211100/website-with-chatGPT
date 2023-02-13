@@ -1,74 +1,59 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Services = () => {
+  const { t } = useTranslation();
+
+  const services = [
+    {
+      id: "service01",
+      name: t("services.service01.name"),
+      description: t("services.service01.description"),
+      imageUrl: "/images/web-development-stacks_.jpg",
+    },
+    {
+      id: "service02",
+      name: t("services.service02.name"),
+      description: t("services.service02.description"),
+      imageUrl: "/images/mobile-development.jpeg",
+    },
+    {
+      id: "service03",
+      name: t("services.service03.name"),
+      description: t("services.service03.description"),
+      imageUrl: "/images/cloud.webp",
+    },
+  ];
   return (
     <section className="bg-white py-8">
-      <div className="container mx-auto">
-        <h2 className="text-3xl font-medium text-center mb-6">Our Services</h2>
-        <div className="flex flex-wrap">
-          <div className="w-full md:w-1/3 p-6">
-            <Image
-              src={"/images/web-development-stacks_.jpg"}
-              alt="web-development"
-              width={800}
-              height={700}
-            />
-            <div className="bg-gray-100 rounded-lg p-8">
-              <h3 className="text-xl font-medium mb-4">Web Development</h3>
-              <p className="text-gray-700 mb-4">
-                Our team of experienced developers can help bring your website
-                ideas to life. Whether you need a simple brochure site or a
-                complex web application, we have the skills and expertise to get
-                the job done.
-              </p>
-              <a href="#" className="text-indigo-500 hover:underline">
-                Learn more
-              </a>
-            </div>
-          </div>
-          <div className="w-full md:w-1/3 p-6">
-            <Image
-              src={"/images/Software-Development.jpg"}
-              alt="web-development"
-              width={800}
-              height={700}
-            />
-            <div className="bg-gray-100 rounded-lg p-8">
-              <h3 className="text-xl font-medium mb-4">Software Development</h3>
-              <p className="text-gray-700 mb-4">
-                From custom software solutions to integrations with existing
-                systems, our team of software developers can help you streamline
-                your business processes and improve efficiency. We'll work with
-                you to understand your needs and deliver a solution that meets
-                your requirements.
-              </p>
-              <a href="#" className="text-indigo-500 hover:underline">
-                Learn more
-              </a>
-            </div>
-          </div>
-          <div className="w-full md:w-1/3 p-6">
-            <Image
-              src={"/images/mobile-development.jpeg"}
-              alt="web-development"
-              width={800}
-              height={700}
-            />
-            <div className="bg-gray-100 rounded-lg p-8">
-              <h3 className="text-xl font-medium mb-4">Mobile Development</h3>
-              <p className="text-gray-700 mb-4">
-                Whether you're looking to build an app for iOS or Android, our
-                team of mobile developers can help bring your ideas to life.
-                We'll work with you to understand your requirements and deliver
-                a high-quality app that meets your needs.
-              </p>
-              <a href="#" className="text-indigo-500 hover:underline">
-                Learn more
-              </a>
-            </div>
-          </div>
-        </div>
+      <div className="mx-auto mt-8 max-w-2xl lg:mt-12 lg:max-w-6xl">
+        <h2 className="text-3xl font-medium text-center mb-6">
+          {t("services.title")}
+        </h2>
+        <dl className="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-3 lg:gap-y-16 pb-6">
+          {services.map((service, index) => (
+            <Link
+              key={index}
+              href={`/services/${service.id}`}
+              className="w-full h-full"
+            >
+              <div className="h-[150px] relative">
+                <Image
+                  src={service.imageUrl}
+                  alt="web-development"
+                  fill
+                  objectFit="center"
+                />
+              </div>
+              <div className="bg-gray-100 rounded-lg p-4 h-[55%]">
+                <h3 className="text-xl font-medium mb-4">{service.name}</h3>
+                <p className="text-gray-700 mb-4">{service.description}</p>
+              </div>
+            </Link>
+          ))}
+        </dl>
       </div>
     </section>
   );

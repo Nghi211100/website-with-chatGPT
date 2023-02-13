@@ -25,31 +25,82 @@
         "home": "Home",
         "about": "About us",
         "services": "Services",
-        "contact": "Contact"
+        "contact": "Contact",
+        "portfolio": "Portfolio"
+    },
+    "footer":{
+        "title": "Subscribe to our newsletter",
+        "description": "The latest news, articles, and resources, sent to your inbox weekly.",
+        "emailAddress": "Email Address",
+        "subscribe": "Subscribe",
+        "enterEmail": "Enter your email"
     },
     "language":{
         "english": "English",
         "vietnamese": "Vietnamese"
     },
     "services": {
-        "title01": "Our services",
-        "title02": "Everything you need to deploy your app",
-        "description": "Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.",
-        "feature01": {
-            "name": "Push to deploy",
-            "description": "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa."
+        "title": "Our services",
+        "description": "Specializing in software development, expertise in creating websites and online solutions, innovative solutions tailored to your specific needs, experienced team of developers and designers, dedicated project management to ensure timely delivery",
+        "service01": {
+            "name": "Web Application Development",
+            "description": "We specialize in developing customized web applications that meet your unique business requirements."
         },
-        "feature02": {
-            "name": "SSL certificates",
-            "description": "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet."
+        "service02": {
+            "name": "Mobile Application Development",
+            "description": "We design and develop mobile apps that offer a seamless user experience across all devices."
         },
-        "feature03": {
-            "name": "Simple queues",
-            "description": "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque."
+        "service03": {
+            "name": "Cloud Solutions and Services",
+            "description": "Our team of experts can help you leverage the power of cloud technology to achieve your business goals."
         },
-        "feature04": {
-            "name": "Advanced security",
-            "description": "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget."
+        "viewAll": "View all"
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "description": "Here are some of our project achievements"
+    },
+    "team": {
+        "title": "Our team",
+        "description": "We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients."
+    },
+    "about": {
+        "title": "About us",
+        "content": {
+            "content01": "Our company is a leading provider of software technology solutions for businesses of all sizes. We have been in the industry for many years and have a reputation for delivering high-quality software that meets the unique needs of our clients.",
+            "content02": "Our team consists of experienced software engineers, designers, and project managers who work together to create innovative and effective software solutions. We stay on top of the latest technologies and trends in the industry to ensure that our clients receive the most advanced software solutions available.",
+            "content03": "Our goal is to help our clients streamline their business operations, increase efficiency, and grow their bottom line. We believe in developing long-term partnerships with our clients and providing exceptional customer support throughout the life of the software.",
+            "content04": "If you're looking for a software technology partner that you can trust, look no further. Contact us today to learn how we can help your business succeed."
+        },
+        "questions": {
+            "title": "Frequently asked questions",
+            "cantlookingfor": "Can’t find the answer you’re looking for? Reach out to our",
+            "support": " customer support",
+            "team": " team",
+            "question01": {
+                "question": "What services do you offer?",
+                "answer": "We offer a range of software technology solutions for businesses of all sizes, including custom software development, app development, and cloud computing services."
+            },
+            "question02": {
+                "question": "What is your process for developing software?",
+                "answer": "Our process for developing software involves close collaboration with our clients to understand their unique needs and requirements. We then use this information to create a customized solution that meets their specific needs."
+            },
+            "question03": {
+                "question": "How long does it take to develop a custom software solution?",
+                "answer": "The time it takes to develop a custom software solution depends on the scope and complexity of the project. Our team will provide an estimated timeline during the planning phase of the project."
+            }
         }
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "Let us know about your question, we will reply as soon as possible.",
+        "address": "Address",
+        "adddt01": "Số 56 Nguyen Dinh Chieu Street",
+        "adddt02": "Dakao Ward, 1 District, Ho Chi Minh City",
+        "phone": "Phone number",
+        "fullname": "Full name",
+        "message": "Message",
+        "submit": "Submit",
+        "location": "Location on the map"
     }
 }

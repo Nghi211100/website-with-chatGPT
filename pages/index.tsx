@@ -1,9 +1,10 @@
 import Content from "@/component/home/Content";
-import Feature from "@/component/home/Feature";
 import Team from "@/component/home/Team";
 import Testimonials from "@/component/home/Testimonials";
 import Layout from "@/component/layout/Layout";
 import HeroSection from "@/component/home/HeroSection";
+import Services from "@/component/home/services";
+import Portfolio from "@/component/home/Portfolio";
 
 export default function index() {
   return (
@@ -13,7 +14,8 @@ export default function index() {
           <HeroSection />
           <div className="max-w-6xl mx-auto">
             <Content />
-            <Feature />
+            <Services />
+            <Portfolio />
             <Team />
             <Testimonials />
           </div>

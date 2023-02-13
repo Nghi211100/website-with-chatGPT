@@ -17,14 +17,19 @@ export default function Header() {
       current: router.route === "/" ? true : false,
     },
     {
-      name: t("header.about"),
-      href: "/about",
-      current: router.route === "/about" ? true : false,
-    },
-    {
       name: t("header.services"),
       href: "/services",
       current: router.route === "/services" ? true : false,
+    },
+    {
+      name: t("header.portfolio"),
+      href: "/portfolio",
+      current: router.route === "/portfolio" ? true : false,
+    },
+    {
+      name: t("header.about"),
+      href: "/about",
+      current: router.route === "/about" ? true : false,
     },
     {
       name: t("header.contact"),
