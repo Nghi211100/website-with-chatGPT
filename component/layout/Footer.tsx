@@ -70,7 +70,7 @@ export default function Footer() {
   const { t } = useTranslation();
   return (
     <footer
-      className="bg-[#192735] relative bottom-0"
+      className="bg-white relative bottom-0 border-t border-gray-200"
       aria-labelledby="footer-heading"
     >
       <h2 id="footer-heading" className="sr-only">
@@ -79,10 +79,10 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 pb-8 lg:px-8">
         <div className="pt-8 lg:flex lg:items-center lg:justify-between">
           <div>
-            <h3 className="text-sm font-semibold leading-6 text-white">
+            <h3 className="text-sm font-semibold leading-6 text-black">
               {t("footer.title")}
             </h3>
-            <p className="mt-2 text-sm leading-6 text-gray-300">
+            <p className="mt-2 text-sm leading-6 text-gray-600">
               {t("footer.description")}
             </p>
           </div>
@@ -96,20 +96,20 @@ export default function Footer() {
               id="email-address"
               autoComplete="email"
               required
-              className="w-full min-w-0 appearance-none rounded-md border-white/10 bg-gray-400/10 px-[calc(theme(spacing.3)-1px)] py-[calc(theme(spacing[1.5])-1px)] text-base leading-7 text-white placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:w-56 sm:text-sm sm:leading-6"
+              className="w-full min-w-0 appearance-none rounded-md border-white/10 bg-gray-400/10 px-[calc(theme(spacing.3)-1px)] py-[calc(theme(spacing[1.5])-1px)] text-base leading-7 text-white placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:w-56 sm:text-sm sm:leading-6"
               placeholder={`${t("footer.enterEmail")}`}
             />
             <div className="mt-4 sm:mt-0 sm:ml-4 sm:flex-shrink-0">
               <button
                 type="submit"
-                className="flex w-full items-center justify-center rounded-md bg-indigo-500 py-1.5 px-3 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:text-sm sm:leading-6"
+                className="flex w-full items-center justify-center rounded-md bg-blue-500 py-1.5 px-3 text-base font-semibold leading-7 text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:text-sm sm:leading-6"
               >
                 {t("footer.subscribe")}
               </button>
             </div>
           </form>
         </div>
-        <div className="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
+        <div className="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
           <div className="flex space-x-6 md:order-2">
             {navigation.social.map((item) => (
               <a

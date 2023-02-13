@@ -60,7 +60,7 @@ const posts = [
 export default function Portfolio() {
   const { t } = useTranslation();
   return (
-    <div className=" bg-white px-6 pt-10 pb-16 lg:px-8 lg:pt-6 lg:pb-7">
+    <div className=" bg-white px-6 py-16 lg:px-8">
       <div className=" mx-auto max-w-7xl">
         <div className="text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -85,7 +85,7 @@ export default function Portfolio() {
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
+                  <p className="text-sm font-medium text-blue-600">
                     <a href={post.category.href} className="hover:underline">
                       {post.category.name}
                     </a>

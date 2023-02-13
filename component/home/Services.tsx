@@ -26,7 +26,7 @@ export default function Services() {
     },
   ];
   return (
-    <div className="bg-white pb-12 pt-24 sm:pb-16 sm:pt-32">
+    <div className="py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -36,13 +36,13 @@ export default function Services() {
             {t("services.description")}
           </p>
         </div>
-        <div className="mx-auto mt-8 max-w-2xl lg:mt-12 lg:max-w-4xl">
-          <dl className="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-3 lg:gap-y-16 pb-6">
+        <div className="mx-auto pt-8 max-w-2xl lg:max-w-4xl space-y-6">
+          <div className="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
             {services.map((service, index) => (
               <Link
                 key={index}
                 href={`/services/${service.id}`}
-                className="w-full h-full"
+                className="w-full h-full shadow-lg rounded-lg"
               >
                 <div className="h-[150px] relative">
                   <Image
@@ -58,13 +58,15 @@ export default function Services() {
                 </div>
               </Link>
             ))}
-          </dl>
-          <Link
-            href={"/services"}
-            className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg"
-          >
-            {t("services.viewAll")}
-          </Link>
+          </div>
+          <div className="pt-6">
+            <Link
+              href={"/services"}
+              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg h-max w-max"
+            >
+              {t("services.viewAll")}
+            </Link>
+          </div>
         </div>
       </div>
     </div>

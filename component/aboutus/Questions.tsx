@@ -28,7 +28,7 @@ export default function Questions() {
               {t("about.questions.cantlookingfor")}
               <a
                 href="/contact"
-                className="font-semibold text-indigo-600 hover:text-indigo-500"
+                className="font-semibold text-blue-600 hover:text-blue-500"
               >
                 {t("about.questions.support")}
               </a>

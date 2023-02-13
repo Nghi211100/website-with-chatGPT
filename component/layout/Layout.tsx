@@ -10,12 +10,10 @@ export default function Layout({
   title: string;
 }) {
   return (
-    <div className="min-h-screen bg-slate-50 font-sans">
+    <div className="min-h-screen bg-white font-sans">
       <title>{title}</title>
       <Header />
-      <div className="min-h-[calc(100vh-209px)] md:pt-[149px] pt-[96px]">
-        {children}
-      </div>
+      <div className="min-h-[calc(100vh-209px)] pt-16">{children}</div>
       <Footer />
       <LanguageSwitcher />
     </div>

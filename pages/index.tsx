@@ -12,15 +12,27 @@ export default function index() {
     <>
       <Layout title="OmniStack - Home Page">
         <div className="w-full h-full text-center">
-          <HeroSection />
-          <div className="max-w-6xl mx-auto">
+          <div className="bg-[#f3f6f9]">
+            <HeroSection />
+          </div>
+          <div className="bg-white">
             <Content />
+          </div>
+          <div className="bg-[#f3f6f9]">
             <Services />
+          </div>
+          <div className="bg-white">
             <Portfolio />
+          </div>
+          <div className="bg-[#f3f6f9]">
             <Team />
+          </div>
+          <div className="bg-white">
             <Testimonials />
           </div>
-          <Contact />
+          <div className="bg-[#f3f6f9]">
+            <Contact />
+          </div>
         </div>
       </Layout>
     </>

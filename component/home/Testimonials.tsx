@@ -1,6 +1,6 @@
 export default function Testimonials() {
   return (
-    <section className="overflow-hidden bg-gray-50 py-12 md:py-20 lg:py-24">
+    <section className="overflow-hidden py-16">
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
         <svg
           className="absolute top-full right-full translate-x-1/3 -translate-y-1/4 transform lg:translate-x-1/2 xl:-translate-y-1/2"
@@ -62,7 +62,7 @@ export default function Testimonials() {
                   </div>
 
                   <svg
-                    className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
+                    className="mx-1 hidden h-5 w-5 text-blue-600 md:block"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
