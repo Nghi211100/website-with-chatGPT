@@ -3,29 +3,27 @@ import {
   NewspaperIcon,
   PhoneIcon,
 } from "@heroicons/react/20/solid";
+import { useTranslation } from "react-i18next";
 
-const cards = [
-  {
-    name: "Sales",
-    description:
-      "We have many websites for you to choose from, covering many areas such as sales, blogs, entertainment, ...",
-    icon: PhoneIcon,
-  },
-  {
-    name: "Technical Support",
-    description:
-      "We use new technology, modern language, easy to use, easy to maintain and high security.",
-    icon: LifebuoyIcon,
-  },
-  {
-    name: "Expense",
-    description:
-      "With the price is not too expensive, our support and enthusiasm will bring you absolute satisfaction.",
-    icon: NewspaperIcon,
-  },
-];
-
-export default function HeaderSection() {
+export default function HeroSection() {
+  const { t } = useTranslation();
+  const cards = [
+    {
+      name: t("headersection.card-one.name"),
+      description: t("headersection.card-one.description"),
+      icon: PhoneIcon,
+    },
+    {
+      name: t("headersection.card-two.name"),
+      description: t("headersection.card-two.description"),
+      icon: LifebuoyIcon,
+    },
+    {
+      name: t("headersection.card-three.name"),
+      description: t("headersection.card-three.description"),
+      icon: NewspaperIcon,
+    },
+  ];
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <img
@@ -89,12 +87,7 @@ export default function HeaderSection() {
             OmniStack
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            OmniStack is a technology company that specializes in delivering
-            cutting-edge software solutions to businesses and organizations. Our
-            team of experienced developers and designers are dedicated to
-            delivering high-quality, user-friendly and innovative software that
-            helps companies achieve their goals and stay ahead of the
-            competition.
+            {t("headersection.description")}
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">

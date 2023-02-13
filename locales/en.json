@@ -1,0 +1,55 @@
+{
+    "headersection":{
+        "description": "OmniStack is a technology company that specializes in delivering cutting-edge software solutions to businesses and organizations. Ourteam of experienced developers and designers are dedicated todelivering high-quality, user-friendly and innovative software that helps companies achieve their goals and stay ahead of the competition.",
+        "card-one": {
+            "name": "Sales",
+            "description": "We have many websites for you to choose from, covering many areas such as sales, blogs, entertainment, ..."
+        },
+        "card-two": {
+            "name": "Technical Support",
+            "description": "We use new technology, modern language, easy to use, easy to maintain and high security."
+        },
+        "card-three": {
+            "name": "Expense",
+            "description": "With the price is not too expensive, our support and enthusiasm will bring you absolute satisfaction."
+        }
+    },
+    "content":{
+        "title": "Deliver what your customers want every time",
+        "description": "Bring a good user experience, close to the user to improve the application to meet all requests from users",
+        "delivery": "Delivery",
+        "efficiency": "Efficiency",
+        "customer": "Customer"
+    },
+    "header":{
+        "home": "Home",
+        "about": "About us",
+        "services": "Services",
+        "contact": "Contact"
+    },
+    "language":{
+        "english": "English",
+        "vietnamese": "Vietnamese"
+    },
+    "services": {
+        "title01": "Our services",
+        "title02": "Everything you need to deploy your app",
+        "description": "Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.",
+        "feature01": {
+            "name": "Push to deploy",
+            "description": "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa."
+        },
+        "feature02": {
+            "name": "SSL certificates",
+            "description": "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet."
+        },
+        "feature03": {
+            "name": "Simple queues",
+            "description": "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque."
+        },
+        "feature04": {
+            "name": "Advanced security",
+            "description": "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget."
+        }
+    }
+}

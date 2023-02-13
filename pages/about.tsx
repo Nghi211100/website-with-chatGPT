@@ -1,6 +1,6 @@
 import Content from "@/component/aboutus/Content";
 import Questions from "@/component/aboutus/Questions";
-import Layout from "@/component/Layout";
+import Layout from "@/component/layout/Layout";
 
 export default function index() {
   return (

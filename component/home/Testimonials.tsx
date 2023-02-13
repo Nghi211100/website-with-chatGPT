@@ -39,11 +39,6 @@ export default function Testimonials() {
         </svg>
 
         <div className="relative">
-          <img
-            className="mx-auto h-8"
-            src="https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-gray-800-and-indigo-600-text.svg"
-            alt="Workcation"
-          />
           <blockquote className="mt-10">
             <div className="mx-auto max-w-3xl text-center text-2xl font-medium leading-9 text-gray-900">
               <p>
@@ -63,7 +58,7 @@ export default function Testimonials() {
                 </div>
                 <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
                   <div className="text-base font-medium text-gray-900">
-                    Judith Black
+                    Bryan Thuan
                   </div>
 
                   <svg
@@ -74,9 +69,7 @@ export default function Testimonials() {
                     <path d="M11 0h3L9 20H6l5-20z" />
                   </svg>
 
-                  <div className="text-base font-medium text-gray-500">
-                    CEO, Workcation
-                  </div>
+                  <div className="text-base font-medium text-gray-500">CEO</div>
                 </div>
               </div>
             </footer>
