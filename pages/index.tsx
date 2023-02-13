@@ -3,8 +3,8 @@ import Team from "@/component/home/Team";
 import Testimonials from "@/component/home/Testimonials";
 import Layout from "@/component/layout/Layout";
 import HeroSection from "@/component/home/HeroSection";
-import Services from "@/component/home/services";
 import Portfolio from "@/component/home/Portfolio";
+import Services from "@/component/home/Services";
 
 export default function index() {
   return (
