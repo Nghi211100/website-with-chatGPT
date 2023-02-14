@@ -41,6 +41,7 @@
     },
     "services": {
         "title": "Our services",
+        "trailer": "Are you in need of technology solutions that will take your business to the next level? Look no further! Welcome to OmniStack - where innovation and expertise meet to deliver the highest quality IT solutions. Our services include Web Application Development, Mobile Application Development, and Cloud Solutions and Services, all designed to meet your unique business requirements.",
         "description": "Specializing in software development, expertise in creating websites and online solutions, innovative solutions tailored to your specific needs, experienced team of developers and designers, dedicated project management to ensure timely delivery",
         "service01": {
             "name": "Web Application Development",
@@ -54,7 +55,12 @@
             "name": "Cloud Solutions and Services",
             "description": "Our team of experts can help you leverage the power of cloud technology to achieve your business goals."
         },
-        "viewAll": "View all"
+        "viewAll": "View all",
+        "content": {
+            "title": "Why trust and choose OmniStack?",
+            "content01": "Imagine having a web application that's tailored to your specific needs, providing a seamless and intuitive user experience. Or a mobile app that works seamlessly across all platforms, offering a delightful user experience. And with our cloud solutions, you can leverage the power of technology to achieve your business goals, all while ensuring the security and protection of your sensitive information.",
+            "content02": "At OmniStack, we are dedicated to delivering technology solutions that empower your business to grow and succeed. So, why wait? Let's take your business to the next level with OmniStack. Get in touch with us today!"
+        }
     },
     "portfolio": {
         "title": "Portfolio",

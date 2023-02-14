@@ -41,6 +41,7 @@
     },
     "services": {
         "title": "Các dịch vụ của chúng tôi",
+        "trailer": "Bạn đang cần các giải pháp công nghệ để đưa doanh nghiệp của bạn lên một tầm cao mới? Còn chần chừ gì nữa! Chào mừng bạn đến với OmniStack - nơi gặp gỡ đổi mới và chuyên môn để cung cấp các giải pháp CNTT chất lượng cao nhất. Các dịch vụ của chúng tôi bao gồm Phát triển ứng dụng web, Phát triển ứng dụng di động, và Dịch vụ và Giải pháp Đám mây, tất cả đều được thiết kế để đáp ứng các yêu cầu kinh doanh riêng của bạn.",
         "description": "Chuyên về phát triển phần mềm, chuyên môn trong việc tạo trang web và giải pháp trực tuyến, giải pháp sáng tạo phù hợp với nhu cầu cụ thể của bạn, đội ngũ nhà phát triển và thiết kế giàu kinh nghiệm, quản lý dự án chuyên dụng để đảm bảo giao hàng kịp thời",
         "service01": {
             "name": "Phát triển ứng dụng web",
@@ -54,7 +55,12 @@
             "name": "Giải pháp và Dịch vụ Đám mây",
             "description": "Nhóm chuyên gia của chúng tôi có thể giúp bạn tận dụng sức mạnh của công nghệ đám mây để đạt được các mục tiêu kinh doanh của mình."
         },
-        "viewAll": "Xem tất cả"
+        "viewAll": "Xem tất cả",
+        "content": {
+            "title": "Vì sao nên tin tưởng và lựa chọn OmniStack?",
+            "content01": "Hãy tưởng tượng có một ứng dụng web phù hợp với nhu cầu cụ thể của bạn, cung cấp trải nghiệm người dùng liền mạch và trực quan. Hoặc một ứng dụng dành cho thiết bị di động hoạt động liền mạch trên tất cả các nền tảng, mang đến trải nghiệm người dùng thú vị. Và với các giải pháp đám mây của chúng tôi, bạn có thể tận dụng sức mạnh của công nghệ để đạt được mục tiêu kinh doanh của mình, đồng thời đảm bảo tính bảo mật và bảo vệ thông tin nhạy cảm của bạn.",
+            "content02": "Tại OmniStack, chúng tôi tận tâm cung cấp các giải pháp công nghệ giúp doanh nghiệp của bạn phát triển và thành công. Vì vậy, tại sao phải chờ đợi? Hãy đưa doanh nghiệp của bạn lên một tầm cao mới với OmniStack. Hãy liên lạc với chúng tôi ngay hôm nay!"
+        }
     },
     "portfolio": {
         "title": "Danh mục thành tựu",
