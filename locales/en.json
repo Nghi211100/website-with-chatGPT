@@ -1,17 +1,24 @@
 {
     "headersection":{
-        "description": "OmniStack is a technology company that specializes in delivering cutting-edge software solutions to businesses and organizations. Ourteam of experienced developers and designers are dedicated todelivering high-quality, user-friendly and innovative software that helps companies achieve their goals and stay ahead of the competition.",
-        "card-one": {
-            "name": "Sales",
-            "description": "We have many websites for you to choose from, covering many areas such as sales, blogs, entertainment, ..."
+        "home":{
+            "title": "OmniStack",
+            "description": "OmniStack is a technology company that specializes in delivering cutting-edge software solutions to businesses and organizations. Ourteam of experienced developers and designers are dedicated todelivering high-quality, user-friendly and innovative software that helps companies achieve their goals and stay ahead of the competition.",
+            "card-one": {
+                "name": "Sales",
+                "description": "We have many websites for you to choose from, covering many areas such as sales, blogs, entertainment, ..."
+            },
+            "card-two": {
+                "name": "Technical Support",
+                "description": "We use new technology, modern language, easy to use, easy to maintain and high security."
+            },
+            "card-three": {
+                "name": "Expense",
+                "description": "With the price is not too expensive, our support and enthusiasm will bring you absolute satisfaction."
+            }
         },
-        "card-two": {
-            "name": "Technical Support",
-            "description": "We use new technology, modern language, easy to use, easy to maintain and high security."
-        },
-        "card-three": {
-            "name": "Expense",
-            "description": "With the price is not too expensive, our support and enthusiasm will bring you absolute satisfaction."
+        "portfolio":{
+            "title": "Portfolio",
+            "description": "Step into the world of innovation and creativity. Welcome to the portfolio of OmniStack, where technology and expertise meet to bring your ideas to life. Our portfolio showcases the diverse range of IT solutions we've delivered to clients across various industries."
         }
     },
     "content":{
@@ -41,8 +48,8 @@
     },
     "services": {
         "title": "Our services",
-        "trailer": "Are you in need of technology solutions that will take your business to the next level? Look no further! Welcome to OmniStack - where innovation and expertise meet to deliver the highest quality IT solutions. Our services include Web Application Development, Mobile Application Development, and Cloud Solutions and Services, all designed to meet your unique business requirements.",
-        "description": "Specializing in software development, expertise in creating websites and online solutions, innovative solutions tailored to your specific needs, experienced team of developers and designers, dedicated project management to ensure timely delivery",
+        "description": "Are you in need of technology solutions that will take your business to the next level? Look no further! Welcome to OmniStack - where innovation and expertise meet to deliver the highest quality IT solutions. Our services include Web Application Development, Mobile Application Development, and Cloud Solutions and Services, all designed to meet your unique business requirements.",
+        "description01": "Specializing in software development, expertise in creating websites and online solutions, innovative solutions tailored to your specific needs, experienced team of developers and designers, dedicated project management to ensure timely delivery",
         "service01": {
             "name": "Web Application Development",
             "description": "We specialize in developing customized web applications that meet your unique business requirements."
@@ -64,7 +71,42 @@
     },
     "portfolio": {
         "title": "Portfolio",
-        "description": "Here are some of our project achievements"
+        "description": "Here are some of our project achievements",
+        "trust": "Proof of our credibility!",
+        "content":{
+            "content01": "From web application development to mobile app development, and from cloud solutions to IT services, our portfolio speaks volumes about our commitment to delivering top-notch technology solutions. Each project is a testament to our expertise, creativity, and drive to help our clients achieve their business goals.",
+            "content02": "Discover the quality of our work and experience the difference that OmniStack can make for your business. Get ready to be inspired by the impact we've had on our clients and imagine what we can do for you. Explore our portfolio now and see the power of technology brought to life."
+        }
+    },
+    "product":{
+        "website":{
+            "title": "Website",
+            "prod":{
+                "prod01":{
+                    "name": "ABC Company",
+                    "description": "ABC Company is a entertainment company ..."
+                }
+            }
+        },
+        "mobile":{
+            "title": "Mobile",
+            "prod":{
+                "prod01":{
+                    "name": "ABC Company",
+                    "description": "ABC Company is a entertainment company ..."
+                }
+            }
+        },
+        "solution":{
+            "title": "Cloud Solutions and Services",
+            "prod":{
+                "prod01":{
+                    "name": "ABC Company",
+                    "description": "ABC Company is a entertainment company ..."
+                }
+            }
+        },
+        "viewAll": "View all"
     },
     "team": {
         "title": "Our team",
@@ -121,6 +163,63 @@
         "pricing": "Pricing",
         "documentation": "Documentation",
         "guides": "Guides",
-        "apiStatus": "API Status"
+        "apiStatus": "API Status",
+        "contactNow": "Contact us now!"
+    },
+    "feature": {
+        "webFeatures": {
+            "feat01": {
+                "name": "Customized Solutions: ",
+                "description": "We develop web applications that are tailored to your specific business needs."
+            },
+            "feat02": {
+                "name": "User-Friendly Design: ",
+                "description": "Our web applications are designed with the user in mind, providing a seamless and intuitive experience."
+            },
+            "feat03": {
+                "name": "Scalability: ",
+                "description": "Our web applications are built to scale, so you can easily expand your business as it grows."
+            },
+            "feat04": {
+                "name": "Security: ",
+                "description": "Our web applications are built to scale, so you can easily expand your business as it grows."
+            }
+        },
+        "mobileFeatures": {
+            "feat01": {
+                "name": "Cross-Platform Development: ",
+                "description": "We develop mobile applications that work seamlessly across all platforms, including iOS and Android."
+            },
+            "feat02": {
+                "name": "User-Friendly Design: ",
+                "description": "Our mobile applications are designed with the user in mind, providing a seamless and intuitive experience."
+            },
+            "feat03": {
+                "name": "Scalability: ",
+                "description": "Our mobile applications are built to scale, so you can easily expand your business as it grows."
+            },
+            "feat04": {
+                "name": "Security: ",
+                "description": "We prioritize security and privacy in all of our mobile applications, ensuring the protection of your sensitive information."
+            }
+        },
+        "solutionFeatures": {
+            "feat01": {
+                "name": "Scalability: ",
+                "description": "Our cloud solutions are built to scale, so you can easily expand your business as it grows."
+            },
+            "feat02": {
+                "name": "Security: ",
+                "description": "We prioritize security and privacy in all of our cloud solutions, ensuring the protection of your sensitive information."
+            },
+            "feat03": {
+                "name": "Cost-Effective: ",
+                "description": "Our cloud solutions are cost-effective, so you can get the most value for your investment."
+            },
+            "feat04": {
+                "name": "Flexibility: ",
+                "description": "Our cloud solutions are flexible, so you can easily adapt to changing business requirements."
+            }
+        }
     }
 }

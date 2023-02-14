@@ -1,10 +1,31 @@
+import HeroSection from "@/component/HeroSection";
 import Layout from "@/component/layout/Layout";
+import Content from "@/component/portfolio/Content";
+import Products from "@/component/portfolio/Products";
+import { useTranslation } from "react-i18next";
 
 export default function index() {
+  const { t } = useTranslation();
   return (
     <>
-      <Layout title="OmniStack - Home Page">
-        <div className="w-full h-full text-center">a</div>
+      <Layout title="OmniStack - Portfolio Page">
+        <HeroSection
+          title={t("headersection.portfolio.title")}
+          description={t("headersection.portfolio.description")}
+          imgLink={"/images/portfolioHero.jpg"}
+        />
+        <div className="bg-[#f3f6f9]">
+          <Content />
+        </div>
+        <div className="bg-white">
+          <Products title={t("product.website.title")} />
+        </div>
+        <div className="bg-[#f3f6f9]">
+          <Products title={t("product.mobile.title")} />
+        </div>
+        <div className="bg-white">
+          <Products title={t("product.solution.title")} />
+        </div>
       </Layout>
     </>
   );

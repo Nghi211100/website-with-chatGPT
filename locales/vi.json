@@ -1,17 +1,24 @@
 {
-    "headersection":{
-        "description": "OmniStack là một công ty công nghệ chuyên cung cấp các giải pháp phần mềm tiên tiến cho các doanh nghiệp và tổ chức. Đội ngũ các nhà phát triển và nhà thiết kế giàu kinh nghiệm của chúng tôi tận tâm cung cấp phần mềm chất lượng cao, thân thiện với người dùng và sáng tạo giúp các công ty đạt được mục tiêu của họ và dẫn đầu đối thủ.",
-        "card-one": {
-            "name": "Việc bán hàng",
-            "description": "Chúng tôi có nhiều trang web cho bạn lựa chọn, bao gồm nhiều lĩnh vực như bán hàng, blog, giải trí,..."
+    "headersection":{      
+        "home":{
+            "title": "OmniStack",
+            "description": "OmniStack là một công ty công nghệ chuyên cung cấp các giải pháp phần mềm tiên tiến cho các doanh nghiệp và tổ chức. Đội ngũ các nhà phát triển và nhà thiết kế giàu kinh nghiệm của chúng tôi tận tâm cung cấp phần mềm chất lượng cao, thân thiện với người dùng và sáng tạo giúp các công ty đạt được mục tiêu của họ và dẫn đầu đối thủ.",
+            "card-one": {
+                "name": "Việc bán hàng",
+                "description": "Chúng tôi có nhiều trang web cho bạn lựa chọn, bao gồm nhiều lĩnh vực như bán hàng, blog, giải trí,..."
+            },
+            "card-two": {
+                "name": "Hỗ trợ kỹ thuật",
+                "description": "Chúng tôi sử dụng công nghệ mới, ngôn ngữ hiện đại, dễ sử dụng, dễ bảo trì và tính bảo mật cao."
+            },
+            "card-three": {
+                "name": "Chi phí",
+                "description": "Với mức giá không quá đắt, sự hỗ trợ nhiệt tình chu đáo của chúng tôi sẽ mang đến cho bạn sự hài lòng tuyệt đối."
+            }
         },
-        "card-two": {
-            "name": "Hỗ trợ kỹ thuật",
-            "description": "Chúng tôi sử dụng công nghệ mới, ngôn ngữ hiện đại, dễ sử dụng, dễ bảo trì và tính bảo mật cao."
-        },
-        "card-three": {
-            "name": "Chi phí",
-            "description": "Với mức giá không quá đắt, sự hỗ trợ nhiệt tình chu đáo của chúng tôi sẽ mang đến cho bạn sự hài lòng tuyệt đối."
+        "portfolio":{
+            "title": "Thành tựu",
+            "description": "Bước vào thế giới của sự đổi mới và sáng tạo. Chào mừng bạn đến với danh mục đầu tư của OmniStack, nơi công nghệ và chuyên môn kết hợp để biến ý tưởng của bạn thành hiện thực. Danh mục đầu tư của chúng tôi giới thiệu một loạt các giải pháp CNTT đa dạng mà chúng tôi đã cung cấp cho khách hàng trong các ngành công nghiệp khác nhau."
         }
     },
     "content":{
@@ -19,7 +26,7 @@
         "description": "Mang lại trải nghiệm người dùng tốt, gần gũi với người dùng để cải thiện ứng dụng để đáp ứng tất cả các yêu cầu từ người dùng",
         "delivery": "Cung cấp",
         "efficiency": "Hiệu suất",
-        "customer": "khách hàng"      
+        "customer": "Khách hàng"      
     },
     "header":{
         "home": "Trang chủ",
@@ -41,8 +48,8 @@
     },
     "services": {
         "title": "Các dịch vụ của chúng tôi",
-        "trailer": "Bạn đang cần các giải pháp công nghệ để đưa doanh nghiệp của bạn lên một tầm cao mới? Còn chần chừ gì nữa! Chào mừng bạn đến với OmniStack - nơi gặp gỡ đổi mới và chuyên môn để cung cấp các giải pháp CNTT chất lượng cao nhất. Các dịch vụ của chúng tôi bao gồm Phát triển ứng dụng web, Phát triển ứng dụng di động, và Dịch vụ và Giải pháp Đám mây, tất cả đều được thiết kế để đáp ứng các yêu cầu kinh doanh riêng của bạn.",
-        "description": "Chuyên về phát triển phần mềm, chuyên môn trong việc tạo trang web và giải pháp trực tuyến, giải pháp sáng tạo phù hợp với nhu cầu cụ thể của bạn, đội ngũ nhà phát triển và thiết kế giàu kinh nghiệm, quản lý dự án chuyên dụng để đảm bảo giao hàng kịp thời",
+        "description": "Bạn đang cần các giải pháp công nghệ để đưa doanh nghiệp của bạn lên một tầm cao mới? Còn chần chừ gì nữa! Chào mừng bạn đến với OmniStack - nơi gặp gỡ đổi mới và chuyên môn để cung cấp các giải pháp CNTT chất lượng cao nhất. Các dịch vụ của chúng tôi bao gồm Phát triển ứng dụng web, Phát triển ứng dụng di động, và Dịch vụ và Giải pháp Đám mây, tất cả đều được thiết kế để đáp ứng các yêu cầu kinh doanh riêng của bạn.",
+        "description01": "Chuyên về phát triển phần mềm, chuyên môn trong việc tạo trang web và giải pháp trực tuyến, giải pháp sáng tạo phù hợp với nhu cầu cụ thể của bạn, đội ngũ nhà phát triển và thiết kế giàu kinh nghiệm, quản lý dự án chuyên dụng để đảm bảo giao hàng kịp thời",
         "service01": {
             "name": "Phát triển ứng dụng web",
             "description": "Chúng tôi chuyên phát triển các ứng dụng web tùy chỉnh đáp ứng các yêu cầu kinh doanh riêng của bạn."
@@ -64,7 +71,42 @@
     },
     "portfolio": {
         "title": "Danh mục thành tựu",
-        "description": "Dưới đây là một số thành tựu dự án của chúng tôi"
+        "description": "Dưới đây là một số thành tựu dự án của chúng tôi",
+        "trust": "Minh chứng cho sự uy tín của chúng tôi!",
+        "content":{
+            "content01": "Từ phát triển ứng dụng web đến phát triển ứng dụng di động và từ các giải pháp đám mây đến dịch vụ CNTT, danh mục đầu tư của chúng tôi nói lên rất nhiều điều về cam kết của chúng tôi trong việc cung cấp các giải pháp công nghệ hàng đầu. Mỗi dự án là minh chứng cho chuyên môn, sự sáng tạo và động lực của chúng tôi để giúp khách hàng đạt được mục tiêu kinh doanh của họ.",
+            "content02": "Khám phá chất lượng công việc của chúng tôi và trải nghiệm sự khác biệt mà OmniStack có thể tạo ra cho doanh nghiệp của bạn. Hãy sẵn sàng để được truyền cảm hứng từ tác động của chúng tôi đối với khách hàng của mình và tưởng tượng những gì chúng tôi có thể làm cho bạn. Khám phá danh mục đầu tư của chúng tôi ngay bây giờ và xem sức mạnh của công nghệ được đưa vào cuộc sống."
+        }
+    },
+    "product":{
+        "website":{
+            "title": "Trang web",
+            "prod":{
+                "prod01":{
+                    "name": "Công ty ABC",
+                    "description": "Công ty ABC là một công ty giải trí ..."
+                }
+            }
+        },
+        "mobile":{
+            "title": "Di động",
+            "prod":{
+                "prod01":{
+                    "name": "Công ty ABC",
+                    "description": "Công ty ABC là một công ty giải trí ..."
+                }
+            }
+        },
+        "solution":{
+            "title": "Giải pháp và Dịch vụ Đám mây",
+            "prod":{
+                "prod01":{
+                    "name": "Công ty ABC",
+                    "description": "Công ty ABC là một công ty giải trí ..."
+                }
+            }
+        },
+        "viewAll": "Xem tất cả"
     },
     "team": {
         "title": "Các thành viên của chúng tôi",
@@ -121,6 +163,63 @@
         "pricing": "Định giá",
         "documentation": "Tài liệu",
         "guides": "Hướng dẫn",
-        "apiStatus": "Trạng thái API"
-    }  
+        "apiStatus": "Trạng thái API",
+        "contactNow": "Liên hệ với chúng tôi ngay!"
+    },
+    "feature": {
+        "webFeatures": {
+            "feat01": {
+                "name": "Giải pháp tùy chỉnh: ",
+                "description": "Chúng tôi phát triển các ứng dụng web phù hợp với nhu cầu kinh doanh cụ thể của bạn."
+            },
+            "feat02": {
+                "name": "Thiết kế thân thiện với người dùng: ",
+                "description": "Các ứng dụng web của chúng tôi được thiết kế dành cho người dùng, mang lại trải nghiệm liền mạch và trực quan."
+            },
+            "feat03": {
+                "name": "Khả năng mở rộng: ",
+                "description": "Các ứng dụng web của chúng tôi được xây dựng để mở rộng quy mô, vì vậy bạn có thể dễ dàng mở rộng hoạt động kinh doanh của mình khi nó phát triển."
+            },
+            "feat04": {
+                "name": "Bảo mật: ",
+                "description": "Chúng tôi ưu tiên bảo mật và quyền riêng tư trong tất cả các ứng dụng web của mình, đảm bảo bảo vệ thông tin nhạy cảm của bạn."
+            }
+        },
+        "mobileFeatures": {
+            "feat01": {
+                "name": "Phát triển đa nền tảng: ",
+                "description": "Chúng tôi phát triển các ứng dụng di động hoạt động liền mạch trên tất cả các nền tảng, bao gồm cả iOS và Android."
+            },
+            "feat02": {
+                "name": "Thiết kế thân thiện với người dùng: ",
+                "description": "Các ứng dụng di động của chúng tôi được thiết kế dành cho người dùng, mang lại trải nghiệm liền mạch và trực quan."
+            },
+            "feat03": {
+                "name": "Khả năng mở rộng: ",
+                "description": "Các ứng dụng di động của chúng tôi được xây dựng để mở rộng quy mô, vì vậy bạn có thể dễ dàng mở rộng hoạt động kinh doanh của mình khi nó phát triển."
+            },
+            "feat04": {
+                "name": "Bảo mật: ",
+                "description": "Chúng tôi ưu tiên bảo mật và quyền riêng tư trong tất cả các ứng dụng di động của mình, đảm bảo bảo vệ thông tin nhạy cảm của bạn."
+            }
+        },
+        "solutionFeatures": {
+            "feat01": {
+                "name": "Khả năng mở rộng: ",
+                "description": "Các giải pháp đám mây của chúng tôi được xây dựng để mở rộng quy mô, vì vậy bạn có thể dễ dàng mở rộng hoạt động kinh doanh của mình khi nó phát triển."
+            },
+            "feat02": {
+                "name": "Bảo mật: ",
+                "description": "Chúng tôi ưu tiên bảo mật và quyền riêng tư trong tất cả các giải pháp đám mây của mình, đảm bảo bảo vệ thông tin nhạy cảm của bạn."
+            },
+            "feat03": {
+                "name": "Tiết kiệm chi phí: ",
+                "description": "Các giải pháp đám mây của chúng tôi tiết kiệm chi phí, vì vậy bạn có thể nhận được nhiều giá trị nhất cho khoản đầu tư của mình."
+            },
+            "feat04": {
+                "name": "Tính linh hoạt: ",
+                "description": "Các giải pháp đám mây của chúng tôi rất linh hoạt, vì vậy bạn có thể dễ dàng thích ứng với các yêu cầu kinh doanh luôn thay đổi."
+            }
+        }
+    }
 }

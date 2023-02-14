@@ -33,7 +33,7 @@ export default function Services() {
             {t("services.title")}
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            {t("services.description")}
+            {t("services.description01")}
           </p>
         </div>
         <div className="mx-auto pt-8 max-w-2xl lg:max-w-7xl space-y-6">

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
 export default function Content() {
@@ -13,7 +14,11 @@ export default function Content() {
             {t("services.content.content01")}
           </p>
           <p className="mt-3 text-lg text-gray-500 sm:mt-4">
-            {t("services.content.content02")}
+            {t("services.content.content02")}{" "}
+            <Link href={"/contact"} className="text-blue-500 font-semibold">
+              {t("contact.title")}
+              {" -->"}
+            </Link>
           </p>
         </div>
       </div>
