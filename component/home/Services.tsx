@@ -36,7 +36,7 @@ export default function Services() {
             {t("services.description")}
           </p>
         </div>
-        <div className="mx-auto pt-8 max-w-2xl lg:max-w-4xl space-y-6">
+        <div className="mx-auto pt-8 max-w-2xl lg:max-w-7xl space-y-6">
           <div className="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
             {services.map((service, index) => (
               <Link

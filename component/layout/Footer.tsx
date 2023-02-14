@@ -99,13 +99,13 @@ export default function Footer() {
         Footer
       </h2>
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+        <div className="lg:grid lg:grid-cols-3 lg:gap-8">
           <img
             className="h-7"
             src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=600"
             alt="Company name"
           />
-          <div className="mt-16 grid grid-cols-4 gap-8 xl:col-span-2 xl:mt-0">
+          <div className="mt-16 grid lg:grid-cols-4 grid-cols-2 gap-8 lg:col-span-2 lg:mt-0">
             <div>
               <h3 className="text-sm font-semibold leading-6 text-gray-900">
                 {t("contact.solutions")}
@@ -123,7 +123,7 @@ export default function Footer() {
                 ))}
               </ul>
             </div>
-            <div className="mt-10 md:mt-0">
+            <div>
               <h3 className="text-sm font-semibold leading-6 text-gray-900">
                 {t("contact.support")}
               </h3>

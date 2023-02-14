@@ -27,8 +27,8 @@ const Services = () => {
     },
   ];
   return (
-    <section className="bg-white py-8">
-      <div className="mx-auto mt-8 max-w-2xl lg:mt-12 lg:max-w-6xl">
+    <section className="bg-white">
+      <div className="mx-auto py-16 max-w-7xl">
         <h2 className="text-3xl font-medium text-center mb-6">
           {t("services.title")}
         </h2>

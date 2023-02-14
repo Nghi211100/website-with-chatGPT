@@ -6,8 +6,10 @@ export default function index() {
   return (
     <>
       <Layout title="OmniStack - Contact Page">
-        <div className="max-w-6xl mx-auto">
+        <div className="bg-[#f3f6f9]">
           <Contact />
+        </div>
+        <div className="bg-white">
           <Map />
         </div>
       </Layout>
