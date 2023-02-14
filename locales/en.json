@@ -96,12 +96,24 @@
         "title": "Contact",
         "description": "Let us know about your question, we will reply as soon as possible.",
         "address": "Address",
-        "adddt01": "Số 56 Nguyen Dinh Chieu Street",
+        "adddt01": "56 Nguyen Dinh Chieu Street",
         "adddt02": "Dakao Ward, 1 District, Ho Chi Minh City",
         "phone": "Phone number",
         "fullname": "Full name",
         "message": "Message",
         "submit": "Submit",
-        "location": "Location on the map"
+        "location": "Location on the map",
+        "call": "Call",
+        "solutions": "Solutions",
+        "support": "Support",
+        "company": "Company",
+        "marketing": "Marketing",
+        "analytics": "Analytics",
+        "commerce": "Commerce",
+        "insights": "Insights",
+        "pricing": "Pricing",
+        "documentation": "Documentation",
+        "guides": "Guides",
+        "apiStatus": "API Status"
     }
 }

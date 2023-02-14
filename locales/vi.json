@@ -96,12 +96,24 @@
         "title": "Liên hệ",
         "description": "Hãy cho chúng tôi biết về câu hỏi của bạn, chúng tôi sẽ trả lời ngay khi có thể.",
         "address": "Địa chỉ",
-        "adddt01": "56 đường Nguyễn Đình Chiểu",
-        "adddt02": "Phường ĐaKao, quận 1, TP. Hồ Chí Minh",
+        "adddt01": "56 Đường Nguyễn Đình Chiểu",
+        "adddt02": "Phường ĐaKao, Quận 1, TP. Hồ Chí Minh",
         "phone": "Số điện thoại",
         "fullname": "Tên đầy đủ",
         "message": "Thông điệp",
         "submit": "Gửi",
-        "location": "Vị trí trên bản đồ"
+        "location": "Vị trí trên bản đồ",
+        "call": "Call",
+        "solutions": "Các giải pháp",
+        "support": "Hỗ trợ",
+        "company": "Công ty",
+        "marketing": "Tiếp thị",
+        "analytics": "Phân tích",
+        "commerce": "Thương mại",
+        "insights": "Thông tin chi tiết",
+        "pricing": "Định giá",
+        "documentation": "Tài liệu",
+        "guides": "Hướng dẫn",
+        "apiStatus": "Trạng thái API"
     }  
 }

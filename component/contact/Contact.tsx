@@ -39,7 +39,7 @@ export default function Contact() {
                     className="h-6 w-6 flex-shrink-0 text-gray-400"
                     aria-hidden="true"
                   />
-                  <span className="ml-3">support@gmai;.com</span>
+                  <span className="ml-3">support@gmail.com</span>
                 </dd>
               </div>
             </dl>

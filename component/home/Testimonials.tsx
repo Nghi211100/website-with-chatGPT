@@ -1,80 +1,255 @@
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 export default function Testimonials() {
+  var settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   return (
-    <section className="overflow-hidden py-16">
-      <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-        <svg
-          className="absolute top-full right-full translate-x-1/3 -translate-y-1/4 transform lg:translate-x-1/2 xl:-translate-y-1/2"
-          width={404}
-          height={404}
-          fill="none"
-          viewBox="0 0 404 404"
-          role="img"
-          aria-labelledby="svg-workcation"
-        >
-          <title id="svg-workcation">Workcation</title>
-          <defs>
-            <pattern
-              id="ad119f34-7694-4c31-947f-5c9d249b21f3"
-              x={0}
-              y={0}
-              width={20}
-              height={20}
-              patternUnits="userSpaceOnUse"
-            >
-              <rect
-                x={0}
-                y={0}
-                width={4}
-                height={4}
-                className="text-gray-200"
-                fill="currentColor"
-              />
-            </pattern>
-          </defs>
-          <rect
-            width={404}
-            height={404}
-            fill="url(#ad119f34-7694-4c31-947f-5c9d249b21f3)"
-          />
-        </svg>
-
-        <div className="relative">
-          <blockquote className="mt-10">
-            <div className="mx-auto max-w-3xl text-center text-2xl font-medium leading-9 text-gray-900">
-              <p>
-                &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nemo expedita voluptas culpa sapiente alias molestiae. Numquam
-                corrupti in laborum sed rerum et corporis.&rdquo;
-              </p>
-            </div>
-            <footer className="mt-8">
-              <div className="md:flex md:items-center md:justify-center">
-                <div className="md:flex-shrink-0">
-                  <img
-                    className="mx-auto h-10 w-10 rounded-full"
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                    alt=""
-                  />
-                </div>
-                <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-                  <div className="text-base font-medium text-gray-900">
-                    Bryan Thuan
-                  </div>
-
+    <section className="bg-[linear-gradient(85deg,#0e3a68_20%,#158eb1_100%)]">
+      <div className="max-w-7xl mx-auto">
+        <Slider {...settings}>
+          <div className="md:!grid md:!grid-cols-2 md:!px-6 lg:!px-8">
+            <div className="py-12 px-6 md:flex md:flex-col md:border-r md:border-[#137894] md:py-16 md:pl-0 md:pr-10 lg:pr-16">
+              <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
+                <div className="relative text-lg font-medium text-white md:flex-grow">
                   <svg
-                    className="mx-1 hidden h-5 w-5 text-blue-600 md:block"
+                    className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-blue-600"
                     fill="currentColor"
-                    viewBox="0 0 20 20"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
                   >
-                    <path d="M11 0h3L9 20H6l5-20z" />
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
-
-                  <div className="text-base font-medium text-gray-500">CEO</div>
+                  <p className="relative">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo expedita voluptas culpa sapiente alias molestiae.
+                    Numquam corrupti in laborum sed rerum et corporis.
+                  </p>
                 </div>
-              </div>
-            </footer>
-          </blockquote>
-        </div>
+                <footer className="mt-8">
+                  <div className="flex items-start">
+                    <div className="inline-flex flex-shrink-0 rounded-full border-2 border-white">
+                      <img
+                        className="h-12 w-12 rounded-full"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        alt=""
+                      />
+                    </div>
+                    <div className="ml-4">
+                      <div className="text-base font-medium text-white">
+                        Judith Black
+                      </div>
+                      <div className="text-base font-medium text-blue-200">
+                        CEO, Tuple
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+            <div className="border-t-2 border-[#137894] py-12 px-6 md:border-t-0 md:border-l md:py-16 md:pr-0 md:pl-10 lg:pl-16">
+              <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
+                <div className="relative text-lg font-medium text-white md:flex-grow">
+                  <svg
+                    className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-blue-600"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                  >
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg>
+                  <p className="relative">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo expedita voluptas culpa sapiente alias molestiae.
+                    Numquam corrupti in laborum sed rerum et corporis. Nemo
+                    expedita voluptas culpa sapiente alias molestiae.
+                  </p>
+                </div>
+                <footer className="mt-8">
+                  <div className="flex items-start">
+                    <div className="inline-flex flex-shrink-0 rounded-full border-2 border-white">
+                      <img
+                        className="h-12 w-12 rounded-full"
+                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        alt=""
+                      />
+                    </div>
+                    <div className="ml-4">
+                      <div className="text-base font-medium text-white">
+                        Joseph Rodriguez
+                      </div>
+                      <div className="text-base font-medium text-blue-200">
+                        CEO, Workcation
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+          <div className="md:!grid md:!grid-cols-2 md:!px-6 lg:!px-8">
+            <div className="py-12 px-6 md:flex md:flex-col md:border-r md:border-[#137894] md:py-16 md:pl-0 md:pr-10 lg:pr-16">
+              <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
+                <div className="relative text-lg font-medium text-white md:flex-grow">
+                  <svg
+                    className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-blue-600"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                  >
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg>
+                  <p className="relative">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo expedita voluptas culpa sapiente alias molestiae.
+                    Numquam corrupti in laborum sed rerum et corporis.
+                  </p>
+                </div>
+                <footer className="mt-8">
+                  <div className="flex items-start">
+                    <div className="inline-flex flex-shrink-0 rounded-full border-2 border-white">
+                      <img
+                        className="h-12 w-12 rounded-full"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        alt=""
+                      />
+                    </div>
+                    <div className="ml-4">
+                      <div className="text-base font-medium text-white">
+                        Judith Black
+                      </div>
+                      <div className="text-base font-medium text-blue-200">
+                        CEO, Tuple
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+            <div className="border-t-2 border-[#137894] py-12 px-6 md:border-t-0 md:border-l md:py-16 md:pr-0 md:pl-10 lg:pl-16">
+              <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
+                <div className="relative text-lg font-medium text-white md:flex-grow">
+                  <svg
+                    className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-blue-600"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                  >
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg>
+                  <p className="relative">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo expedita voluptas culpa sapiente alias molestiae.
+                    Numquam corrupti in laborum sed rerum et corporis. Nemo
+                    expedita voluptas culpa sapiente alias molestiae.
+                  </p>
+                </div>
+                <footer className="mt-8">
+                  <div className="flex items-start">
+                    <div className="inline-flex flex-shrink-0 rounded-full border-2 border-white">
+                      <img
+                        className="h-12 w-12 rounded-full"
+                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        alt=""
+                      />
+                    </div>
+                    <div className="ml-4">
+                      <div className="text-base font-medium text-white">
+                        Joseph Rodriguez
+                      </div>
+                      <div className="text-base font-medium text-blue-200">
+                        CEO, Workcation
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+          <div className="md:!grid md:!grid-cols-2 md:!px-6 lg:!px-8">
+            <div className="py-12 px-6 md:flex md:flex-col md:border-r md:border-[#137894] md:py-16 md:pl-0 md:pr-10 lg:pr-16">
+              <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
+                <div className="relative text-lg font-medium text-white md:flex-grow">
+                  <svg
+                    className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-blue-600"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                  >
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg>
+                  <p className="relative">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo expedita voluptas culpa sapiente alias molestiae.
+                    Numquam corrupti in laborum sed rerum et corporis.
+                  </p>
+                </div>
+                <footer className="mt-8">
+                  <div className="flex items-start">
+                    <div className="inline-flex flex-shrink-0 rounded-full border-2 border-white">
+                      <img
+                        className="h-12 w-12 rounded-full"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        alt=""
+                      />
+                    </div>
+                    <div className="ml-4">
+                      <div className="text-base font-medium text-white">
+                        Judith Black
+                      </div>
+                      <div className="text-base font-medium text-blue-200">
+                        CEO, Tuple
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+            <div className="border-t-2 border-[#137894] py-12 px-6 md:border-t-0 md:border-l md:py-16 md:pr-0 md:pl-10 lg:pl-16">
+              <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
+                <div className="relative text-lg font-medium text-white md:flex-grow">
+                  <svg
+                    className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-blue-600"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                  >
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg>
+                  <p className="relative">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo expedita voluptas culpa sapiente alias molestiae.
+                    Numquam corrupti in laborum sed rerum et corporis. Nemo
+                    expedita voluptas culpa sapiente alias molestiae.
+                  </p>
+                </div>
+                <footer className="mt-8">
+                  <div className="flex items-start">
+                    <div className="inline-flex flex-shrink-0 rounded-full border-2 border-white">
+                      <img
+                        className="h-12 w-12 rounded-full"
+                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        alt=""
+                      />
+                    </div>
+                    <div className="ml-4">
+                      <div className="text-base font-medium text-white">
+                        Joseph Rodriguez
+                      </div>
+                      <div className="text-base font-medium text-blue-200">
+                        CEO, Workcation
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </Slider>
       </div>
     </section>
   );

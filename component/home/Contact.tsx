@@ -1,4 +1,3 @@
-import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
 import { useTranslation } from "react-i18next";
 
 export default function Contact() {
