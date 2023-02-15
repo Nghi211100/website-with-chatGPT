@@ -44,7 +44,7 @@ export default function index() {
               description={t("headersection.home.description")}
               imgLink={"/images/Web-Developer-San-Francisco.jpeg"}
               button={
-                <button className="pt-4">
+                <button className="pt-6 pb-4">
                   <Link
                     href={"/about"}
                     className="px-4 py-3 bg-blue-500 rounded-lg shadow-xl text-white hover:bg-blue-600"
