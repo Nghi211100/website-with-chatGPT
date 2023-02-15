@@ -22,7 +22,7 @@ export default function Products({
         {!detail && (
           <a
             href={`/portfolio/${cateName}`}
-            className="hidden text-sm font-medium text-blue-600 hover:text-blue-500 md:block"
+            className="hidden text-sm font-medium text-blue-500 hover:text-blue-600 md:block"
           >
             {t("product.viewAll")}
             <span aria-hidden="true"> &rarr;</span>

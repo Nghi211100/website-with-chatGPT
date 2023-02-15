@@ -101,8 +101,8 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16">
         <div className="lg:grid lg:grid-cols-3 lg:gap-8">
           <img
-            className="h-7"
-            src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=600"
+            className="h-16"
+            src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=500"
             alt="Company name"
           />
           <div className="mt-16 grid lg:grid-cols-4 grid-cols-2 gap-8 lg:col-span-2 lg:mt-0">

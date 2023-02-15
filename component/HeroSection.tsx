@@ -1,13 +1,17 @@
+import { ReactElement } from "react";
+
 export default function HeroSection({
   cards,
   title,
   description,
   imgLink,
+  button,
 }: {
   cards?: any;
   title: string;
   description: string;
   imgLink: string;
+  button?: ReactElement;
 }) {
   return (
     <div className="relative isolate overflow-hidden py-12 sm:py-16">
@@ -25,8 +29,9 @@ export default function HeroSection({
           <p className="mt-6 text-lg leading-8 text-white drop-shadow-lg">
             {description}
           </p>
+          {button}
         </div>
-        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
+        <div className="mx-auto mt-6 grid max-w-2xl grid-cols-1 gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
           {cards &&
             cards.map((card: any, index: number) => (
               <div

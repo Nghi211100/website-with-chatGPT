@@ -62,7 +62,7 @@ export default function Services() {
           <div className="pt-6">
             <Link
               href={"/services"}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg h-max w-max"
+              className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg h-max w-max"
             >
               {t("services.viewAll")}
             </Link>

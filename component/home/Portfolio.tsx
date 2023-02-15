@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
 const posts = [
@@ -85,7 +86,7 @@ export default function Portfolio() {
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
-                  <p className="text-sm font-medium text-blue-600">
+                  <p className="text-sm font-medium text-blue-500">
                     <a href={post.category.href} className="hover:underline">
                       {post.category.name}
                     </a>
@@ -102,6 +103,14 @@ export default function Portfolio() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="pt-6 mt-4">
+          <Link
+            href={"/portfolio"}
+            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg h-max w-max"
+          >
+            {t("services.viewAll")}
+          </Link>
         </div>
       </div>
     </div>

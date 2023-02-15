@@ -132,6 +132,14 @@ export default function Team() {
             </li>
           ))}
         </ul>
+        <div className="pt-6 mt-4 text-center">
+          <Link
+            href={"/about"}
+            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg h-max w-max"
+          >
+            {t("services.viewAll")}
+          </Link>
+        </div>
       </div>
     </div>
   );

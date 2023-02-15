@@ -12,6 +12,7 @@ import {
   NewspaperIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 export default function index() {
   const { t } = useTranslation();
@@ -42,6 +43,16 @@ export default function index() {
               title={t("headersection.home.title")}
               description={t("headersection.home.description")}
               imgLink={"/images/Web-Developer-San-Francisco.jpeg"}
+              button={
+                <button className="pt-4">
+                  <Link
+                    href={"/about"}
+                    className="px-4 py-3 bg-blue-500 rounded-lg shadow-xl text-white hover:bg-blue-600"
+                  >
+                    {t("readMore")}
+                  </Link>
+                </button>
+              }
             />
           </div>
           <div className="bg-white">

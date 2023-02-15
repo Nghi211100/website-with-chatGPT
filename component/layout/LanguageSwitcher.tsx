@@ -9,6 +9,10 @@ const LanguageSwitcher = () => {
   );
 
   useEffect(() => {
+    i18n.changeLanguage(language);
+  }, [i18n.language]);
+
+  useEffect(() => {
     localStorage.setItem("language", language);
     i18n.changeLanguage(language);
   }, [language]);
