@@ -99,6 +99,7 @@ export default function index() {
           <Feature
             features={webFeatures}
             title={"Web Application Development"}
+            imgLink={"/images/website-design.jpg"}
           />
         </div>
         <div className="bg-[#f3f6f9]">
@@ -106,12 +107,14 @@ export default function index() {
             features={MobileFeatures}
             title={"Mobile Application Development"}
             left={true}
+            imgLink={"/images/mobile-design.jpeg"}
           />
         </div>
         <div className="bg-white">
           <Feature
             features={solutionFeatures}
             title={"Cloud Solutions and Services"}
+            imgLink={"/images/solutionandservice.jpg"}
           />
         </div>
         <div className="w-max mx-auto bg-blue-500 px-4 py-3 text-white rounded-xl mb-16 hover:bg-blue-600">

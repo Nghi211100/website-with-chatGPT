@@ -4,10 +4,12 @@ export default function Feature({
   features,
   title,
   left,
+  imgLink,
 }: {
   features: any;
   title: string;
   left?: boolean;
+  imgLink: string;
 }) {
   return (
     <div className="overflow-hidden max-w-7xl py-16 mx-auto">
@@ -29,12 +31,14 @@ export default function Feature({
             </dl>
           </div>
           <div
-            className={`relative overflow-x-clip lg:pl-2 ${left && "row-[1]"}`}
+            className={`relative overflow-x-clip lg:pl-2 ${
+              left && "lg:row-[1]"
+            }`}
           >
             <Image
-              src="/images/website-design.jpg"
+              src={imgLink}
               alt="Product screenshot"
-              className="h-full lg:w-[800px] w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10"
+              className="object-center h-[200px] sm:h-[300px] md:h-[400px] lg:w-auto w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10"
               width={2432}
               height={1442}
             />

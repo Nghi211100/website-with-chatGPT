@@ -18,7 +18,7 @@ export default function Content() {
           objectFit="cover"
         />
       </div>
-      <div className="px-6 my-auto flex-1">
+      <div className="px-6 my-auto flex-1 pt-6 pb-16 lg:py-0">
         <div className="mx-auto max-w-2xl lg:mr-0 lg:ml-auto lg:max-w-none lg:pl-10 text-left">
           <div>
             <div className="flex h-12 w-12 items-center justify-center rounded-md bg-blue-500 text-white">
