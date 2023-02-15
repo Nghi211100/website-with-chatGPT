@@ -68,8 +68,9 @@ export default function Header() {
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                  {navigation.map((item) => (
+                  {navigation.map((item, index) => (
                     <Link
+                      key={index}
                       href={item.href}
                       className={`${
                         item.current === true && "border-blue-500 border-b-2"
@@ -85,10 +86,11 @@ export default function Header() {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 pt-2 pb-4 bg-white/80">
-              {navigation.map((item) => (
+              {navigation.map((item, index) => (
                 <Disclosure.Button
                   as="a"
                   href={item.href}
+                  key={index}
                   className={`${
                     item.current === true &&
                     "border-blue-500 border-l-2 text-blue-500"

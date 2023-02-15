@@ -111,8 +111,8 @@ export default function Footer() {
                 {t("contact.solutions")}
               </h3>
               <ul role="list" className="mt-6 space-y-4">
-                {navigation.solutions.map((item) => (
-                  <li key={item.name}>
+                {navigation.solutions.map((item, index) => (
+                  <li key={index}>
                     <a
                       href={item.href}
                       className="text-sm leading-6 text-gray-600 hover:text-gray-900"
@@ -128,8 +128,8 @@ export default function Footer() {
                 {t("contact.support")}
               </h3>
               <ul role="list" className="mt-6 space-y-4">
-                {navigation.support.map((item) => (
-                  <li key={item.name}>
+                {navigation.support.map((item, index) => (
+                  <li key={index}>
                     <a
                       href={item.href}
                       className="text-sm leading-6 text-gray-600 hover:text-gray-900"
@@ -145,8 +145,8 @@ export default function Footer() {
                 {t("contact.company")}
               </h3>
               <ul role="list" className="mt-6 space-y-4">
-                {navigation.company.map((item) => (
-                  <li key={item.name}>
+                {navigation.company.map((item, index) => (
+                  <li key={index}>
                     <a
                       href={item.href}
                       className="text-sm leading-6 text-gray-600 hover:text-gray-900"
@@ -162,8 +162,8 @@ export default function Footer() {
                 {t("contact.title")}
               </h3>
               <ul role="list" className="mt-6 space-y-4">
-                {navigation.contact.map((item) => (
-                  <li key={item.name}>
+                {navigation.contact.map((item, index) => (
+                  <li key={index}>
                     <p className="text-sm leading-6 text-gray-600 hover:text-gray-900">
                       {item.name}
                     </p>
@@ -207,9 +207,9 @@ export default function Footer() {
         </div>
         <div className="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
           <div className="flex space-x-6 md:order-2">
-            {navigation.social.map((item) => (
+            {navigation.social.map((item, index) => (
               <a
-                key={item.name}
+                key={index}
                 href={item.href}
                 className="text-gray-500 hover:text-gray-400"
               >

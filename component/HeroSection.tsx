@@ -28,9 +28,9 @@ export default function HeroSection({
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
           {cards &&
-            cards.map((card: any) => (
+            cards.map((card: any, index: number) => (
               <div
-                key={card.name}
+                key={index}
                 className="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10"
               >
                 <card.icon

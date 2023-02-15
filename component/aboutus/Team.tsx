@@ -64,9 +64,9 @@ export default function Team() {
         </div>
       </div>
       <ul role="list" className="divide-y divide-gray-200 xl:col-span-3">
-        {people.map((person) => (
+        {people.map((person, index) => (
           <li
-            key={person.name}
+            key={index}
             className="flex flex-col gap-10 py-6 sm:flex-row first:pt-0 last:pb-0"
           >
             <img

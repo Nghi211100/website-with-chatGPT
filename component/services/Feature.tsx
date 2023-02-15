@@ -18,8 +18,8 @@ export default function Feature({
               {title}
             </p>
             <dl className="max-w-xl space-y-1 text-base leading-7 text-gray-600 lg:max-w-none">
-              {features.map((feature: any) => (
-                <div key={feature.name} className="relative">
+              {features.map((feature: any, index: number) => (
+                <div key={index} className="relative">
                   <dt className="inline font-semibold text-gray-900">
                     {feature.name}
                   </dt>{" "}
