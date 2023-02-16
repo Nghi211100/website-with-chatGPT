@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 export default function Content() {
   const { t } = useTranslation();
   return (
-    <div className="lg:flex bg-white lg:py-16 max-w-7xl mx-auto">
+    <div className="lg:flex py-16 px-5 sm:px-8 max-w-[1200px] mx-auto">
       <div className="h-[280px] lg:h-[450px] flex-1 relative my-auto">
         <Image
           className="h-full w-full"
@@ -18,10 +18,10 @@ export default function Content() {
           objectFit="cover"
         />
       </div>
-      <div className="px-6 my-auto flex-1 pt-6 pb-16 lg:py-0">
+      <div className="px-6 my-auto flex-1 pt-6">
         <div className="mx-auto max-w-2xl lg:mr-0 lg:ml-auto lg:max-w-none lg:pl-10 text-left">
           <div>
-            <div className="flex h-12 w-12 items-center justify-center rounded-md bg-blue-500 text-white">
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500 text-white">
               <UsersIcon className="h-6 w-6" aria-hidden="true" />
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function Content() {
           <button className="pt-6 flex">
             <Link
               href={"/about"}
-              className="px-4 py-3 bg-blue-500 rounded-lg shadow-xl text-white hover:bg-blue-600"
+              className="px-4 py-3 bg-blue-500 rounded-xl shadow-xl text-white hover:bg-blue-600"
             >
               {t("contact.contactNow")}
             </Link>

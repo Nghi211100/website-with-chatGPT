@@ -17,7 +17,7 @@ export default function Questions() {
     },
   ];
   return (
-    <div className="mx-auto max-w-7xl px-6 py-16">
+    <div className="mx-auto max-w-[1200px] px-6 py-16">
       <div className="lg:grid lg:grid-cols-12 lg:gap-8">
         <div className="lg:col-span-5">
           <div className="sticky top-20">

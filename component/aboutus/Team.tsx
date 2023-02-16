@@ -52,7 +52,7 @@ const people = [
 export default function Team() {
   const { t } = useTranslation();
   return (
-    <div className="mx-auto grid max-w-7xl grid-cols-1 gap-y-10 gap-x-8 px-6 py-16 xl:grid-cols-5">
+    <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-y-10 gap-x-8 px-6 py-16 xl:grid-cols-5">
       <div className="max-w-2xl xl:col-span-2">
         <div className="sticky top-20">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">

@@ -61,57 +61,55 @@ const posts = [
 export default function Portfolio() {
   const { t } = useTranslation();
   return (
-    <div className=" bg-white px-6 py-16 lg:px-8">
-      <div className=" mx-auto max-w-7xl">
-        <div className="text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            {t("portfolio.title")}
-          </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-            {t("portfolio.description")}
-          </p>
-        </div>
-        <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
-          {posts.map((post, index) => (
-            <div
-              key={index}
-              className="flex flex-col overflow-hidden rounded-lg shadow-lg"
-            >
-              <div className="flex-shrink-0">
-                <img
-                  className="h-48 w-full object-cover"
-                  src={post.imageUrl}
-                  alt=""
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-blue-500">
-                    <a href={post.category.href} className="hover:underline">
-                      {post.category.name}
-                    </a>
-                  </p>
-                  <a href={post.href} className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">
-                      {post.title}
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      {post.description}
-                    </p>
+    <div className="py-16 sm:px-8 px-5 mx-auto max-w-[1200px]">
+      <div className="text-center">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          {t("portfolio.title")}
+        </h2>
+        <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
+          {t("portfolio.description")}
+        </p>
+      </div>
+      <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
+        {posts.map((post, index) => (
+          <div
+            key={index}
+            className="flex flex-col overflow-hidden rounded-xl shadow-lg"
+          >
+            <div className="flex-shrink-0">
+              <img
+                className="h-48 w-full object-cover"
+                src={post.imageUrl}
+                alt=""
+              />
+            </div>
+            <div className="flex flex-1 flex-col justify-between bg-white p-6">
+              <div className="flex-1">
+                <p className="text-sm font-medium text-blue-500">
+                  <a href={post.category.href} className="hover:underline">
+                    {post.category.name}
                   </a>
-                </div>
+                </p>
+                <a href={post.href} className="mt-2 block">
+                  <p className="text-xl font-semibold text-gray-900">
+                    {post.title}
+                  </p>
+                  <p className="mt-3 text-base text-gray-500">
+                    {post.description}
+                  </p>
+                </a>
               </div>
             </div>
-          ))}
-        </div>
-        <div className="pt-6 mt-4">
-          <Link
-            href={"/portfolio"}
-            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg h-max w-max"
-          >
-            {t("services.viewAll")}
-          </Link>
-        </div>
+          </div>
+        ))}
+      </div>
+      <div className="pt-6 mt-4">
+        <Link
+          href={"/portfolio"}
+          className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-xl h-max w-max"
+        >
+          {t("services.viewAll")}
+        </Link>
       </div>
     </div>
   );

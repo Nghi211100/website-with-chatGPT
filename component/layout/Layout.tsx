@@ -13,7 +13,7 @@ export default function Layout({
     <div className="min-h-screen bg-white font-sans">
       <title>{title}</title>
       <Header />
-      <div className="min-h-[calc(100vh-506px)] pt-16">{children}</div>
+      <div className="min-h-[calc(100vh-450px)] pt-14">{children}</div>
       <Footer />
       <LanguageSwitcher />
     </div>

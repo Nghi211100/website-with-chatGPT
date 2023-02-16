@@ -98,14 +98,49 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16">
-        <div className="lg:grid lg:grid-cols-3 lg:gap-8">
-          <img
-            className="h-16"
-            src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=500"
-            alt="Company name"
-          />
-          <div className="mt-16 grid lg:grid-cols-4 grid-cols-2 gap-8 lg:col-span-2 lg:mt-0">
+      <div className="mx-auto max-w-[1200px] px-5 sm:px-8 pb-10 pt-10">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-8">
+          <div>
+            <img
+              className="h-8"
+              src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=500"
+              alt="Company name"
+            />
+            <div className="pt-5">
+              <div>
+                <h3 className="text-sm font-semibold leading-6 text-black">
+                  {t("footer.title")}
+                </h3>
+                <p className="text-sm leading-6 text-gray-600">
+                  {t("footer.description")}
+                </p>
+              </div>
+              <form className="mt-6 sm:flex sm:max-w-md lg:mt-5">
+                <label htmlFor="email-address" className="sr-only">
+                  {t("footer.emailAddress")}
+                </label>
+                <input
+                  type="email"
+                  name="email-address"
+                  id="email-address"
+                  autoComplete="email"
+                  required
+                  className="w-full min-w-0 appearance-none rounded-xl border-white/10 bg-gray-400/10 px-[calc(theme(spacing.3)-1px)] py-[calc(theme(spacing[1.5])-1px)] text-base leading-7 text-white placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:w-56 sm:text-sm sm:leading-6"
+                  placeholder={`${t("footer.enterEmail")}`}
+                />
+                <div className="mt-4 sm:mt-0 sm:ml-4 sm:flex-shrink-0">
+                  <button
+                    type="submit"
+                    className="flex w-full items-center justify-center rounded-xl bg-blue-500 py-1.5 px-3 text-base font-semibold leading-7 text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:text-sm sm:leading-6"
+                  >
+                    {t("footer.subscribe")}
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div className="mt-12 grid lg:grid-cols-4 grid-cols-2 lg:col-span-1 lg:mt-0">
             <div>
               <h3 className="text-sm font-semibold leading-6 text-gray-900">
                 {t("contact.solutions")}
@@ -173,39 +208,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="lg:flex lg:items-center lg:justify-between pt-16">
-          <div>
-            <h3 className="text-sm font-semibold leading-6 text-black">
-              {t("footer.title")}
-            </h3>
-            <p className="mt-2 text-sm leading-6 text-gray-600">
-              {t("footer.description")}
-            </p>
-          </div>
-          <form className="mt-6 sm:flex sm:max-w-md lg:mt-0">
-            <label htmlFor="email-address" className="sr-only">
-              {t("footer.emailAddress")}
-            </label>
-            <input
-              type="email"
-              name="email-address"
-              id="email-address"
-              autoComplete="email"
-              required
-              className="w-full min-w-0 appearance-none rounded-md border-white/10 bg-gray-400/10 px-[calc(theme(spacing.3)-1px)] py-[calc(theme(spacing[1.5])-1px)] text-base leading-7 text-white placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:w-56 sm:text-sm sm:leading-6"
-              placeholder={`${t("footer.enterEmail")}`}
-            />
-            <div className="mt-4 sm:mt-0 sm:ml-4 sm:flex-shrink-0">
-              <button
-                type="submit"
-                className="flex w-full items-center justify-center rounded-xl bg-blue-500 py-1.5 px-3 text-base font-semibold leading-7 text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:text-sm sm:leading-6"
-              >
-                {t("footer.subscribe")}
-              </button>
-            </div>
-          </form>
-        </div>
-        <div className="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
+        <div className="mt-20 border-t border-gray-200 pt-10 md:flex md:items-center md:justify-between">
           <div className="flex space-x-6 md:order-2">
             {navigation.social.map((item, index) => (
               <a
@@ -218,7 +221,7 @@ export default function Footer() {
               </a>
             ))}
           </div>
-          <p className="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">
+          <p className="mt-5 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">
             &copy; 2023 OmniStack Company, Inc. All rights reserved.
           </p>
         </div>

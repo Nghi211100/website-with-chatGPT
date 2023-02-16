@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export default function Map() {
   const { t } = useTranslation();
   return (
-    <div className="max-w-7xl mx-auto py-16 px-6">
+    <div className="max-w-[1200px] mx-auto py-16 px-6">
       <p className="text-4xl font-bold">{t("contact.location")}</p>
       <div className="mx-auto w-full h-80 md:h-[700px] p-6 mt-6 shadow-lg">
         <iframe

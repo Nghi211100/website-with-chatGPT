@@ -27,7 +27,7 @@ const LanguageSwitcher = () => {
       <select
         value={language}
         onChange={handleLanguageChange}
-        className="w-full bg-white shadow-lg rounded-lg px-4 py-2 border border-neutral-50"
+        className="w-full bg-white shadow-lg rounded-xl px-4 py-2 border border-neutral-50"
       >
         <option value="en">{t("language.english")}</option>
         <option value="vi">{t("language.vietnamese")}</option>

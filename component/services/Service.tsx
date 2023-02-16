@@ -28,7 +28,7 @@ const Services = () => {
   ];
   return (
     <section className="bg-white">
-      <div className="mx-auto py-16 max-w-7xl">
+      <div className="mx-auto py-16 max-w-[1200px]">
         <h2 className="text-3xl font-medium text-center mb-6">
           {t("services.title")}
         </h2>
@@ -47,7 +47,7 @@ const Services = () => {
                   objectFit="center"
                 />
               </div>
-              <div className="bg-gray-100 rounded-lg p-4 h-[55%]">
+              <div className="bg-gray-100 rounded-xl p-4 h-[55%]">
                 <h3 className="text-xl font-medium mb-4">{service.name}</h3>
                 <p className="text-gray-700 mb-4">{service.description}</p>
               </div>

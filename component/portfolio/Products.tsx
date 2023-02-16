@@ -14,7 +14,7 @@ export default function Products({
 }) {
   const { t } = useTranslation();
   return (
-    <div className="mx-auto max-w-2xl py-16 px-4 sm:px-6 lg:max-w-7xl">
+    <div className="mx-auto max-w-2xl py-16 px-4 sm:px-6 lg:max-w-[1200px]">
       <div className="md:flex md:items-center md:justify-between">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900">
           {title}
@@ -33,7 +33,7 @@ export default function Products({
       <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
         {products.map((product: any) => (
           <div key={product.id} className="group relative">
-            <div className="w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75">
+            <div className="w-full overflow-hidden rounded-xl bg-gray-200 group-hover:opacity-75">
               <Image
                 src={product.imageSrc}
                 alt={product.imageAlt}

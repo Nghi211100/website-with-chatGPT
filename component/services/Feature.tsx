@@ -12,7 +12,7 @@ export default function Feature({
   imgLink: string;
 }) {
   return (
-    <div className="overflow-hidden max-w-7xl py-16 mx-auto">
+    <div className="overflow-hidden max-w-[1200px] py-16 mx-auto">
       <div className="mx-auto px-6">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-6 lg:max-w-none lg:grid-cols-2">
           <div className={`lg:max-w-lg my-auto ${left && "ml-auto"}`}>

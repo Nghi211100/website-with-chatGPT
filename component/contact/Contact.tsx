@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export default function Contact() {
   const { t } = useTranslation();
   return (
-    <div className="relative px-6 py-16 max-w-7xl mx-auto">
+    <div className="relative px-6 py-16 max-w-[1200px] mx-auto">
       <div className="relative mx-auto grid lg:grid-cols-5 gap-6">
         <div className="lg:col-span-2">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900">
@@ -43,7 +43,7 @@ export default function Contact() {
             </div>
           </dl>
         </div>
-        <div className="bg-white p-6 lg:col-span-3 shadow-lg rounded-lg">
+        <div className="bg-white p-6 lg:col-span-3 shadow-lg rounded-xl">
           <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">
             <div>
               <label htmlFor="full-name" className="sr-only">
@@ -54,7 +54,7 @@ export default function Contact() {
                 name="full-name"
                 id="full-name"
                 autoComplete="name"
-                className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                 placeholder={`${t("contact.fullname")}`}
               />
             </div>
@@ -67,7 +67,7 @@ export default function Contact() {
                 name="email"
                 type="email"
                 autoComplete="email"
-                className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                 placeholder="Email"
               />
             </div>
@@ -80,7 +80,7 @@ export default function Contact() {
                 name="phone"
                 id="phone"
                 autoComplete="tel"
-                className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                 placeholder={`${t("contact.phone")}`}
               />
             </div>
@@ -92,7 +92,7 @@ export default function Contact() {
                 id="message"
                 name="message"
                 rows={4}
-                className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                 placeholder={`${t("contact.message")}`}
                 defaultValue={""}
               />
@@ -100,7 +100,7 @@ export default function Contact() {
             <div>
               <button
                 type="submit"
-                className="inline-flex justify-center rounded-lg border border-transparent bg-blue-500 py-3 px-8 text-base font-medium text-white shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                className="inline-flex justify-center rounded-xl border border-transparent bg-blue-500 py-3 px-8 text-base font-medium text-white shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
               >
                 {t("contact.submit")}
               </button>

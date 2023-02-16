@@ -14,44 +14,56 @@ export default function HeroSection({
   button?: ReactElement;
 }) {
   return (
-    <div className="relative isolate overflow-hidden py-12 sm:py-16">
-      <div className="absolute inset-0 bg-black/25 z-10"></div>
-      <img
-        src={imgLink}
-        alt=""
-        className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
-      />
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 z-20 relative text-left">
-        <div className="mx-auto max-w-3xl lg:mx-0">
-          <h2 className="text-4xl font-bold tracking-tight text-white drop-shadow-lg sm:text-6xl">
-            {title}
-          </h2>
-          <p className="mt-6 text-lg leading-8 text-white drop-shadow-lg">
-            {description}
-          </p>
-          {button}
-        </div>
-        <div className="mx-auto mt-6 grid max-w-2xl grid-cols-1 gap-6 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
-          {cards &&
-            cards.map((card: any, index: number) => (
-              <div
-                key={index}
-                className="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10"
-              >
-                <card.icon
-                  className="h-7 w-5 flex-none text-blue-400"
-                  aria-hidden="true"
+    <div className="relative isolate overflow-hidden">
+      <div className="relative isolate overflow-hidden mx-auto sm:px-8">
+        <svg
+          className="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+          aria-hidden="true"
+        >
+          <defs>
+            <pattern
+              id="0787a7c5-978c-4f66-83c7-11c213f99cb7"
+              width={200}
+              height={200}
+              x="50%"
+              y={-1}
+              patternUnits="userSpaceOnUse"
+            >
+              <path d="M.5 200V.5H200" fill="none" />
+            </pattern>
+          </defs>
+          <rect
+            width="100%"
+            height="100%"
+            strokeWidth={0}
+            fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"
+          />
+        </svg>
+        <div className="mx-auto max-w-7xl px-6 pb-20 sm:py-24 lg:flex lg:px-8 text-left">
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
+            <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              {title}
+            </h1>
+            <p className="mt-3 md:mt-6 text-lg leading-8 text-gray-600">
+              {description}
+            </p>
+            <div className="mt-3 md:mt-6 flex items-center gap-x-6">
+              {button}
+            </div>
+          </div>
+          <div className="mx-auto mt-10 flex max-w-2xl sm:mt-16 lg:ml-10 lg:mt-0 lg:mr-0 lg:max-w-none lg:flex-none xl:ml-32">
+            <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
+              <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+                <img
+                  src={imgLink}
+                  alt="App screenshot"
+                  width={2432}
+                  height={1442}
+                  className="w-[76rem] max-h-[500px] rounded-md shadow-2xl ring-1 ring-gray-900/10"
                 />
-                <div className="text-base leading-7">
-                  <h3 className="font-semibold text-white drop-shadow-lg">
-                    {card.name}
-                  </h3>
-                  <p className="mt-2 text-white drop-shadow-lg">
-                    {card.description}
-                  </p>
-                </div>
               </div>
-            ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

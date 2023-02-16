@@ -7,7 +7,7 @@ export default function Content() {
 
   return (
     <div className="py-16">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-[1200px] px-6 sm:px-8">
         <h2 className="text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           {t("portfolio.trust")}
         </h2>

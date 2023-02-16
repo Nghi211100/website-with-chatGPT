@@ -5,7 +5,7 @@ export default function Content() {
   const { t } = useTranslation();
   return (
     <div className="py-16">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-[1200px] px-5 sm:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             {t("services.content.title")}
@@ -25,9 +25,9 @@ export default function Content() {
       <div className="pt-10">
         <div className="relative">
           <div className="absolute inset-0 h-1/2 border-b shadow-md" />
-          <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="relative mx-auto max-w-[1200px] px-5 sm:px-8">
             <div className="mx-auto max-w-4xl">
-              <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
+              <dl className="rounded-xl bg-white shadow-lg sm:grid sm:grid-cols-3">
                 <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
                   <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
                     {t("content.efficiency")}

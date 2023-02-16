@@ -36,7 +36,7 @@ export default function Team() {
   const { t } = useTranslation();
   return (
     <div className="py-16 text-left">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-[1200px] px-5 sm:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             {t("team.title")}
@@ -135,7 +135,7 @@ export default function Team() {
         <div className="pt-6 mt-4 text-center">
           <Link
             href={"/about"}
-            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg h-max w-max"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-xl h-max w-max"
           >
             {t("services.viewAll")}
           </Link>

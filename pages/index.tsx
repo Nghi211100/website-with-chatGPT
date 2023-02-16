@@ -37,40 +37,38 @@ export default function index() {
     <>
       <Layout title="OmniStack - Home Page">
         <div className="w-full h-full text-center">
-          <div className="bg-[#f3f6f9]">
+          <div className="bg-white">
             <HeroSection
               cards={cards}
               title={t("headersection.home.title")}
               description={t("headersection.home.description")}
               imgLink={"/images/Web-Developer-San-Francisco.jpeg"}
               button={
-                <button className="pt-6 pb-4">
-                  <Link
-                    href={"/about"}
-                    className="px-4 py-3 bg-blue-500 rounded-lg shadow-xl text-white hover:bg-blue-600"
-                  >
-                    {t("readMore")}
-                  </Link>
-                </button>
+                <a
+                  href="/about"
+                  className="text-base font-semibold leading-7 text-gray-900"
+                >
+                  Learn more <span aria-hidden="true">→</span>
+                </a>
               }
             />
           </div>
-          <div className="bg-white">
+          <div className="bg-[#f3f6f9]">
             <Content />
           </div>
-          <div className="bg-[#f3f6f9]">
+          <div className="bg-white">
             <Services />
           </div>
-          <div className="bg-white">
+          <div className="bg-[#f3f6f9]">
             <Portfolio />
           </div>
-          <div className="bg-[#f3f6f9]">
+          <div className="bg-white">
             <Team />
           </div>
-          <div className="bg-white">
+          <div className="bg-[#f3f6f9]">
             <Testimonials />
           </div>
-          <div className="bg-[#f3f6f9]">
+          <div className="bg-white">
             <Contact />
           </div>
         </div>
