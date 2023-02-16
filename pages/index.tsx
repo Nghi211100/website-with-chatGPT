@@ -48,7 +48,7 @@ export default function index() {
                   href="/about"
                   className="text-base font-semibold leading-7 text-gray-900"
                 >
-                  Learn more <span aria-hidden="true">→</span>
+                  {t("readMore")} <span aria-hidden="true">→</span>
                 </a>
               }
             />
