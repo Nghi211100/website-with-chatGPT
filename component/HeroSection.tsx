@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ReactElement } from "react";
 
 export default function HeroSection({
@@ -54,7 +55,7 @@ export default function HeroSection({
           <div className="mx-auto mt-10 flex max-w-2xl sm:mt-16 lg:ml-10 lg:mt-0 lg:mr-0 lg:max-w-none lg:flex-none xl:ml-32">
             <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
               <div className="-m-2 rounded-xl bg-gray-900/5 dark:bg-[#005eff]/10 p-2 ring-1 ring-inset ring-gray-900/10 dark:ring-[#183b61] lg:-m-4 lg:rounded-2xl lg:p-4">
-                <img
+                <Image
                   src={imgLink}
                   alt="App screenshot"
                   width={2432}

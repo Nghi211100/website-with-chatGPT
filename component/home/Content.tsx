@@ -9,13 +9,12 @@ export default function Content() {
     <div className="lg:flex py-16 px-5 sm:px-8 max-w-[1200px] mx-auto">
       <div className="h-[280px] lg:h-[450px] flex-1 relative my-auto">
         <Image
-          className="h-full w-full"
+          className="h-full w-full object-cover"
           src={
             "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
           }
           alt="Support team"
           fill
-          objectFit="cover"
         />
       </div>
       <div className="px-6 my-auto flex-1 pt-6">

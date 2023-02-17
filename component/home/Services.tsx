@@ -46,10 +46,10 @@ export default function Services() {
               >
                 <div className="h-[150px] relative">
                   <Image
+                    className="object-cover"
                     src={service.imageUrl}
                     alt="web-development"
                     fill
-                    objectFit="center"
                   />
                 </div>
                 <div className="bg-gray-100 dark:bg-[#132f4c] p-4 h-[55%]">
