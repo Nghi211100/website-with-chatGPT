@@ -21,10 +21,10 @@ export default function Questions() {
       <div className="lg:grid lg:grid-cols-12 lg:gap-8">
         <div className="lg:col-span-5">
           <div className="sticky top-20">
-            <h2 className="text-4xl font-bold leading-10 tracking-tight text-gray-900">
+            <h2 className="text-4xl font-bold leading-10 tracking-tight text-gray-900 dark:text-gray-50">
               {t("about.questions.title")}
             </h2>
-            <p className="mt-4 text-base leading-7 text-gray-600">
+            <p className="mt-4 text-base leading-7 text-gray-600 dark:text-gray-400">
               {t("about.questions.cantlookingfor")}
               <a
                 href="/contact"
@@ -40,10 +40,10 @@ export default function Questions() {
           <dl className="space-y-10">
             {faqs.map((faq, index) => (
               <div key={index}>
-                <dt className="text-base font-semibold leading-7 text-gray-900">
+                <dt className="text-base font-semibold leading-7 text-gray-900 dark:text-gray-50">
                   {faq.question}
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-600">
+                <dd className="mt-2 text-base leading-7 text-gray-600 dark:text-gray-400">
                   {faq.answer}
                 </dd>
               </div>

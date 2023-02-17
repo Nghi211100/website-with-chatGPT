@@ -37,7 +37,7 @@ export default function index() {
     <>
       <Layout title="OmniStack - Home Page">
         <div className="w-full h-full text-center">
-          <div className="bg-white">
+          <div className="bg-white dark:bg-[#001e3c]">
             <HeroSection
               cards={cards}
               title={t("headersection.home.title")}
@@ -46,29 +46,29 @@ export default function index() {
               button={
                 <a
                   href="/about"
-                  className="text-base font-semibold leading-7 text-gray-900"
+                  className="text-base font-semibold leading-7 text-gray-900 dark:text-gray-100"
                 >
                   {t("readMore")} <span aria-hidden="true">→</span>
                 </a>
               }
             />
           </div>
-          <div className="bg-[#f3f6f9]">
+          <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
             <Content />
           </div>
-          <div className="bg-white">
+          <div className="bg-white dark:bg-[#001e3c] ">
             <Services />
           </div>
-          <div className="bg-[#f3f6f9]">
+          <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
             <Portfolio />
           </div>
-          <div className="bg-white">
+          <div className="bg-white dark:bg-[#001e3c]">
             <Team />
           </div>
-          <div className="bg-[#f3f6f9]">
+          <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
             <Testimonials />
           </div>
-          <div className="bg-white">
+          <div className="bg-white dark:bg-[#001e3c]">
             <Contact />
           </div>
         </div>

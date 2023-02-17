@@ -10,7 +10,7 @@ export default function Layout({
   title: string;
 }) {
   return (
-    <div className="min-h-screen bg-white font-sans">
+    <div className="min-h-screen bg-white dark:bg-[#001e3c] font-sans">
       <title>{title}</title>
       <Header />
       <div className="min-h-[calc(100vh-450px)] pt-14">{children}</div>

@@ -44,24 +44,24 @@ export default function index() {
           description={t("headersection.portfolio.description")}
           imgLink={"/images/portfolioHero.jpg"}
         />
-        <div className="bg-[#f3f6f9]">
+        <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
           <Content />
         </div>
-        <div className="bg-white">
+        <div className="bg-white dark:bg-[#001e3c]">
           <Products
             title={t("product.website.title")}
             cateName="website"
             products={products}
           />
         </div>
-        <div className="bg-[#f3f6f9]">
+        <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
           <Products
             title={t("product.mobile.title")}
             cateName="mobile"
             products={products}
           />
         </div>
-        <div className="bg-white">
+        <div className="bg-white dark:bg-[#001e3c]">
           <Products
             title={t("product.solution.title")}
             cateName="solution"

@@ -25,7 +25,7 @@ export default function Content() {
               <UsersIcon className="h-6 w-6" aria-hidden="true" />
             </div>
           </div>
-          <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
             {t("content.title")}
           </h2>
           <p className="mt-6 text-lg text-gray-500">

@@ -27,7 +27,7 @@ const Services = () => {
     },
   ];
   return (
-    <section className="bg-white">
+    <section className="bg-white dark:bg-[#001e3c]">
       <div className="mx-auto py-16 max-w-[1200px]">
         <h2 className="text-3xl font-medium text-center mb-6">
           {t("services.title")}

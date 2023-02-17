@@ -92,17 +92,17 @@ export default function index() {
           description={t("services.description")}
           imgLink={"/images/Hero_Service.png"}
         />
-        <div className="bg-[#f3f6f9]">
+        <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
           <Content />
         </div>
-        <div className="bg-white">
+        <div className="bg-white dark:bg-[#001e3c]">
           <Feature
             features={webFeatures}
             title={"Web Application Development"}
             imgLink={"/images/website-design.jpg"}
           />
         </div>
-        <div className="bg-[#f3f6f9]">
+        <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
           <Feature
             features={MobileFeatures}
             title={"Mobile Application Development"}
@@ -110,7 +110,7 @@ export default function index() {
             imgLink={"/images/mobile-design.jpeg"}
           />
         </div>
-        <div className="bg-white">
+        <div className="bg-white dark:bg-[#001e3c]">
           <Feature
             features={solutionFeatures}
             title={"Cloud Solutions and Services"}

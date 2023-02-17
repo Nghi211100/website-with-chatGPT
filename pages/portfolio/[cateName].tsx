@@ -123,11 +123,11 @@ export default function index() {
           description={t("headersection.portfolio.description")}
           imgLink={"/images/portfolioHero.jpg"}
         />
-        <div className="bg-[#f3f6f9]">
+        <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
           <Content />
         </div>
         {}
-        <div className="bg-white">
+        <div className="bg-white dark:bg-[#001e3c]">
           <ShowProd />
         </div>
       </Layout>

@@ -7,7 +7,7 @@ export default function Contact() {
     <div className="relative px-6 py-16 max-w-[1200px] mx-auto">
       <div className="relative mx-auto grid lg:grid-cols-5 gap-6">
         <div className="lg:col-span-2">
-          <h2 className="text-4xl font-bold tracking-tight text-gray-900">
+          <h2 className="text-4xl font-bold tracking-tight text-blue-500">
             {t("contact.title")}
           </h2>
           <p className="mt-3 text-lg leading-6 text-gray-500">
@@ -43,7 +43,7 @@ export default function Contact() {
             </div>
           </dl>
         </div>
-        <div className="bg-white p-6 lg:col-span-3 shadow-lg rounded-xl">
+        <div className="bg-white dark:bg-[#001e3c] p-6 lg:col-span-3 shadow-lg dark:shadow-[inset_0px_-1px_1px_#132f4c] rounded-xl">
           <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">
             <div>
               <label htmlFor="full-name" className="sr-only">
@@ -54,7 +54,7 @@ export default function Contact() {
                 name="full-name"
                 id="full-name"
                 autoComplete="name"
-                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-white"
                 placeholder={`${t("contact.fullname")}`}
               />
             </div>
@@ -67,7 +67,7 @@ export default function Contact() {
                 name="email"
                 type="email"
                 autoComplete="email"
-                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-white"
                 placeholder="Email"
               />
             </div>
@@ -80,7 +80,7 @@ export default function Contact() {
                 name="phone"
                 id="phone"
                 autoComplete="tel"
-                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-white"
                 placeholder={`${t("contact.phone")}`}
               />
             </div>
@@ -92,7 +92,7 @@ export default function Contact() {
                 id="message"
                 name="message"
                 rows={4}
-                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-white"
                 placeholder={`${t("contact.message")}`}
                 defaultValue={""}
               />

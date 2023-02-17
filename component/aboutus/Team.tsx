@@ -55,10 +55,10 @@ export default function Team() {
     <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-y-10 gap-x-8 px-6 py-16 xl:grid-cols-5">
       <div className="max-w-2xl xl:col-span-2">
         <div className="sticky top-20">
-          <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
             {t("team.about")}
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
             {t("team.description")}
           </p>
         </div>
@@ -75,11 +75,13 @@ export default function Team() {
               alt=""
             />
             <div className="max-w-xl flex-auto">
-              <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">
+              <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900 dark:text-gray-50">
                 {person.name}
               </h3>
-              <p className="text-base leading-7 text-gray-600">{person.role}</p>
-              <p className="mt-6 text-base leading-7 text-gray-600">
+              <p className="text-base leading-7 text-gray-600 dark:text-gray-400">
+                {person.role}
+              </p>
+              <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
                 {person.bio}
               </p>
               <ul role="list" className="mt-6 flex gap-x-6">

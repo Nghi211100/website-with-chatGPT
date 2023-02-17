@@ -38,10 +38,10 @@ export default function Team() {
     <div className="py-16 text-left">
       <div className="mx-auto max-w-[1200px] px-5 sm:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
             {t("team.title")}
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
             {t("team.description")}
           </p>
         </div>
@@ -56,10 +56,12 @@ export default function Team() {
                 src={person.imageUrl}
                 alt=""
               />
-              <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">
+              <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900 dark:text-gray-50">
                 {person.name}
               </h3>
-              <p className="text-base leading-7 text-gray-600">{person.role}</p>
+              <p className="text-base leading-7 text-gray-600 dark:text-gray-400">
+                {person.role}
+              </p>
               <ul role="list" className="mt-6 flex gap-x-6">
                 <li>
                   <a

@@ -63,7 +63,7 @@ export default function Portfolio() {
   return (
     <div className="py-16 sm:px-8 px-5 mx-auto max-w-[1200px]">
       <div className="text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
           {t("portfolio.title")}
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
@@ -74,7 +74,7 @@ export default function Portfolio() {
         {posts.map((post, index) => (
           <div
             key={index}
-            className="flex flex-col overflow-hidden rounded-xl shadow-lg"
+            className="flex flex-col overflow-hidden rounded-xl shadow-lg dark:shadow-[inset_0px_-1px_1px_#132f4c] dark:border-[#1e4976] dark:border"
           >
             <div className="flex-shrink-0">
               <img
@@ -83,7 +83,7 @@ export default function Portfolio() {
                 alt=""
               />
             </div>
-            <div className="flex flex-1 flex-col justify-between bg-white p-6">
+            <div className="flex flex-1 flex-col justify-between bg-white dark:bg-[#001e3c] p-6">
               <div className="flex-1">
                 <p className="text-sm font-medium text-blue-500">
                   <a href={post.category.href} className="hover:underline">
@@ -91,7 +91,7 @@ export default function Portfolio() {
                   </a>
                 </p>
                 <a href={post.href} className="mt-2 block">
-                  <p className="text-xl font-semibold text-gray-900">
+                  <p className="text-xl font-semibold text-gray-900 dark:text-gray-50">
                     {post.title}
                   </p>
                   <p className="mt-3 text-base text-gray-500">

@@ -92,7 +92,7 @@ export default function Footer() {
   };
   return (
     <footer
-      className="bg-white relative bottom-0 border-t border-gray-200"
+      className="bg-white dark:bg-[#001e3c] relative bottom-0 border-t border-gray-200 dark:border-[#183b61] "
       aria-labelledby="footer-heading"
     >
       <h2 id="footer-heading" className="sr-only">
@@ -108,10 +108,10 @@ export default function Footer() {
             />
             <div className="pt-5">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-black">
+                <h3 className="text-sm font-semibold leading-6 text-black dark:text-white">
                   {t("footer.title")}
                 </h3>
-                <p className="text-sm leading-6 text-gray-600">
+                <p className="text-sm leading-6 text-gray-600 dark:text-gray-400">
                   {t("footer.description")}
                 </p>
               </div>
@@ -142,7 +142,7 @@ export default function Footer() {
 
           <div className="mt-12 grid lg:grid-cols-4 grid-cols-2 lg:col-span-1 lg:mt-0">
             <div>
-              <h3 className="text-sm font-semibold leading-6 text-gray-900">
+              <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-50">
                 {t("contact.solutions")}
               </h3>
               <ul role="list" className="mt-6 space-y-4">
@@ -150,7 +150,7 @@ export default function Footer() {
                   <li key={index}>
                     <a
                       href={item.href}
-                      className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                      className="text-sm leading-6 text-gray-600 dark:text-gray-400 hover:text-gray-900"
                     >
                       {item.name}
                     </a>
@@ -159,7 +159,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h3 className="text-sm font-semibold leading-6 text-gray-900">
+              <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-50">
                 {t("contact.support")}
               </h3>
               <ul role="list" className="mt-6 space-y-4">
@@ -167,7 +167,7 @@ export default function Footer() {
                   <li key={index}>
                     <a
                       href={item.href}
-                      className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                      className="text-sm leading-6 text-gray-600 dark:text-gray-400 hover:text-gray-900"
                     >
                       {item.name}
                     </a>
@@ -176,7 +176,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h3 className="text-sm font-semibold leading-6 text-gray-900">
+              <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-50">
                 {t("contact.company")}
               </h3>
               <ul role="list" className="mt-6 space-y-4">
@@ -184,7 +184,7 @@ export default function Footer() {
                   <li key={index}>
                     <a
                       href={item.href}
-                      className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                      className="text-sm leading-6 text-gray-600 dark:text-gray-400 hover:text-gray-900"
                     >
                       {item.name}
                     </a>
@@ -193,13 +193,13 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h3 className="text-sm font-semibold leading-6 text-gray-900">
+              <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-50">
                 {t("contact.title")}
               </h3>
               <ul role="list" className="mt-6 space-y-4">
                 {navigation.contact.map((item, index) => (
                   <li key={index}>
-                    <p className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                    <p className="text-sm leading-6 text-gray-600 dark:text-gray-400 hover:text-gray-900">
                       {item.name}
                     </p>
                   </li>
@@ -208,7 +208,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-20 border-t border-gray-200 pt-10 md:flex md:items-center md:justify-between">
+        <div className="mt-20 border-t border-gray-200 dark:border-[#183b61] pt-10 md:flex md:items-center md:justify-between">
           <div className="flex space-x-6 md:order-2">
             {navigation.social.map((item, index) => (
               <a

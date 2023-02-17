@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./**/*.{js,ts,tsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
       keyframes: {
@@ -11,7 +12,7 @@ module.exports = {
       },
       animation: {
         'wiggle': 'wiggle 0.5s ease-in-out'
-      }
+      },
     },
   },
   plugins: [],

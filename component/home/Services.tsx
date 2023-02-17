@@ -29,10 +29,10 @@ export default function Services() {
     <div className="py-16">
       <div className="mx-auto max-w-[1200px] px-5 sm:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
             {t("services.title")}
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
             {t("services.description01")}
           </p>
         </div>
@@ -42,7 +42,7 @@ export default function Services() {
               <Link
                 key={index}
                 href={`/services/${service.id}`}
-                className="w-full h-full shadow-lg rounded-xl"
+                className="w-full h-full shadow-lg dark:shadow-[inset_0px_-1px_1px_#132f4c] dark:border-[#1e4976] dark:border rounded-xl overflow-hidden"
               >
                 <div className="h-[150px] relative">
                   <Image
@@ -52,9 +52,13 @@ export default function Services() {
                     objectFit="center"
                   />
                 </div>
-                <div className="bg-gray-100 rounded-xl p-4 h-[55%]">
-                  <h3 className="text-xl font-medium mb-4">{service.name}</h3>
-                  <p className="text-gray-700 mb-4">{service.description}</p>
+                <div className="bg-gray-100 dark:bg-[#132f4c] p-4 h-[55%]">
+                  <h3 className="text-xl font-medium mb-4 dark:text-white">
+                    {service.name}
+                  </h3>
+                  <p className="text-gray-700 dark:text-gray-500 mb-4">
+                    {service.description}
+                  </p>
                 </div>
               </Link>
             ))}

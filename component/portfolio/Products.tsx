@@ -16,7 +16,7 @@ export default function Products({
   return (
     <div className="mx-auto max-w-2xl py-16 px-4 sm:px-6 lg:max-w-[1200px]">
       <div className="md:flex md:items-center md:justify-between">
-        <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+        <h2 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
           {title}
         </h2>
         {!detail && (

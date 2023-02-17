@@ -16,13 +16,13 @@ export default function Feature({
       <div className="mx-auto px-6">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-6 lg:max-w-none lg:grid-cols-2">
           <div className={`lg:max-w-lg my-auto ${left && "ml-auto"}`}>
-            <p className="pb-6 font-bold tracking-tight text-gray-900 text-4xl">
+            <p className="pb-6 font-bold tracking-tight text-gray-900 dark:text-gray-50 text-4xl">
               {title}
             </p>
-            <dl className="max-w-xl space-y-1 text-base leading-7 text-gray-600 lg:max-w-none">
+            <dl className="max-w-xl space-y-1 text-base leading-7 text-gray-600 dark:text-gray-400 lg:max-w-none">
               {features.map((feature: any, index: number) => (
                 <div key={index} className="relative">
-                  <dt className="inline font-semibold text-gray-900">
+                  <dt className="inline font-semibold text-gray-900 dark:text-gray-50">
                     {feature.name}
                   </dt>{" "}
                   <dd className="inline">{feature.description}</dd>

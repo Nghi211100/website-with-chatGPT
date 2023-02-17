@@ -9,17 +9,9 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 export default function Header() {
-  const [colorDefault, setColorDefault] = useState(
-    (typeof window !== "undefined" && localStorage.getItem("colorDefault")) ||
-      "light"
-  );
-
-  const handleChangeColor = () => {
-    setColorDefault(colorDefault === "light" ? "dark" : "light");
-  };
-
   const { t } = useTranslation();
   const router = useRouter();
   const navigation = [
@@ -52,7 +44,7 @@ export default function Header() {
   return (
     <Disclosure
       as="nav"
-      className="bg-white/80 shadow-md fixed w-full z-50 backdrop-blur"
+      className="bg-white/80 dark:bg-[#001e3c] shadow-lg dark:shadow-[inset_0px_-1px_1px_#132f4c] fixed w-full z-50 backdrop-blur"
     >
       {({ open }) => (
         <>
@@ -60,7 +52,7 @@ export default function Header() {
             <div className="relative flex h-14 justify-between">
               <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-xl p-2 text-blue-500 focus:outline-none focus:ring-0 border border-gray-300">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-xl p-2 text-blue-500 focus:outline-none focus:ring-0 border border-gray-300 dark:border-[#183b61]">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-4 w-4" aria-hidden="true" />
@@ -90,7 +82,7 @@ export default function Header() {
                         href={item.href}
                         className={`${
                           item.current === true && "border-blue-500 border-b-2"
-                        } inline-flex items-center p-2.5 text-sm font-medium text-gray-900`}
+                        } inline-flex items-center p-2.5 text-sm font-medium text-gray-900 dark:text-gray-50`}
                       >
                         {item.name}
                       </Link>
@@ -99,21 +91,12 @@ export default function Header() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-11 sm:right-0 flex">
-                <button
-                  className="border border-gray-300 rounded-xl p-2 w-max h-max my-auto text-blue-500"
-                  onClick={() => handleChangeColor()}
-                >
-                  {colorDefault === "light" ? (
-                    <MoonIcon className="h-4 w-4" />
-                  ) : (
-                    <SunIcon className="h-4 w-4" />
-                  )}
-                </button>
+                <ThemeSwitcher />
               </div>
             </div>
           </div>
-          <Disclosure.Panel className="sm:hidden animate-wiggle overflow-hidden shadow-lg">
-            <div className="pt-2 pb-4 bg-white/80">
+          <Disclosure.Panel className="sm:hidden animate-wiggle overflow-hidden shadow-lg dark:shadow-[inset_0px_-1px_1px_#132f4c]">
+            <div className="pt-2 pb-4 bg-white dark:bg-[#0a1929b3]">
               {navigation.map((item, index) => (
                 <Disclosure.Button
                   as="a"
@@ -122,7 +105,7 @@ export default function Header() {
                   className={`${
                     item.current === true &&
                     "border-blue-500 border-l-2 text-blue-500"
-                  } block py-2 pl-3 pr-4 text-base font-medium text-gray-500`}
+                  } block py-2 pl-3 pr-4 text-base font-medium text-gray-500 dark:text-gray-400`}
                 >
                   {item.name}
                 </Disclosure.Button>

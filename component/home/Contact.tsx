@@ -4,9 +4,11 @@ export default function Contact() {
   const { t } = useTranslation();
   return (
     <div className="relative py-16 sm:px-8 px-5 max-w-[1200px] mx-auto">
-      <p className="text-3xl lg:text-4xl font-bold pb-6">Contact us</p>
-      <div className="relative mx-auto lg:grid lg:grid-cols-5 shadow-lg rounded-xl overflow-hidden">
-        <div className="bg-white p-6 lg:col-span-2">
+      <p className="text-3xl lg:text-4xl font-bold pb-6 dark:text-white">
+        Contact us
+      </p>
+      <div className="relative mx-auto lg:grid lg:grid-cols-5 shadow-lg dark:shadow-[inset_0px_-1px_1px_#132f4c] rounded-xl overflow-hidden">
+        <div className="bg-white dark:bg-[#005eff]/10 p-6 lg:col-span-2">
           <div className="mx-auto max-w-lg lg:max-w-none">
             <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">
               <div>
@@ -18,7 +20,7 @@ export default function Contact() {
                   name="full-name"
                   id="full-name"
                   autoComplete="name"
-                  className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-white"
                   placeholder={`${t("contact.fullname")}`}
                 />
               </div>
@@ -31,7 +33,7 @@ export default function Contact() {
                   name="email"
                   type="email"
                   autoComplete="email"
-                  className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-white"
                   placeholder="Email"
                 />
               </div>
@@ -44,7 +46,7 @@ export default function Contact() {
                   name="phone"
                   id="phone"
                   autoComplete="tel"
-                  className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-white"
                   placeholder={`${t("contact.phone")}`}
                 />
               </div>
@@ -56,7 +58,7 @@ export default function Contact() {
                   id="message"
                   name="message"
                   rows={4}
-                  className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-white"
                   placeholder={`${t("contact.message")}`}
                   defaultValue={""}
                 />
@@ -73,10 +75,10 @@ export default function Contact() {
           </div>
         </div>
         <div className="lg:col-span-3">
-          <div className="mx-auto w-full h-80 lg:h-full p-6 bg-white">
+          <div className="mx-auto w-full h-80 lg:h-full p-6 bg-white dark:bg-[#005eff]/10">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2865708020836!2d106.69788995088277!3d10.789349661866394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528b555c872a7%3A0xd4c90543ff33dc01!2zNTYgTmd1eeG7hW4gxJDDrG5oIENoaeG7g3UsIMSQYSBLYW8sIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1676015715105!5m2!1svi!2s"
-              className="border w-full h-full"
+              className="border dark:border-[#1e4976] w-full h-full"
               allowFullScreen={false}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
