@@ -1,5 +1,6 @@
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
 import { useTranslation } from "react-i18next";
+import FormContact from "./FormContact";
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -44,68 +45,7 @@ export default function Contact() {
           </dl>
         </div>
         <div className="bg-white dark:bg-[#001e3c] p-6 lg:col-span-3 shadow-lg dark:shadow-[inset_0px_-1px_1px_#132f4c] rounded-xl">
-          <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">
-            <div>
-              <label htmlFor="full-name" className="sr-only">
-                {t("contact.fullname")}
-              </label>
-              <input
-                type="text"
-                name="full-name"
-                id="full-name"
-                autoComplete="name"
-                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-white"
-                placeholder={`${t("contact.fullname")}`}
-              />
-            </div>
-            <div>
-              <label htmlFor="email" className="sr-only">
-                Email
-              </label>
-              <input
-                id="email"
-                name="email"
-                type="email"
-                autoComplete="email"
-                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-white"
-                placeholder="Email"
-              />
-            </div>
-            <div>
-              <label htmlFor="phone" className="sr-only">
-                {t("contact.phone")}
-              </label>
-              <input
-                type="text"
-                name="phone"
-                id="phone"
-                autoComplete="tel"
-                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-white"
-                placeholder={`${t("contact.phone")}`}
-              />
-            </div>
-            <div>
-              <label htmlFor="message" className="sr-only">
-                {t("contact.message")}
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                rows={4}
-                className="block w-full rounded-xl border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-white"
-                placeholder={`${t("contact.message")}`}
-                defaultValue={""}
-              />
-            </div>
-            <div>
-              <button
-                type="submit"
-                className="inline-flex justify-center rounded-xl border border-transparent bg-blue-500 py-3 px-8 text-base font-medium text-white shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-              >
-                {t("contact.submit")}
-              </button>
-            </div>
-          </form>
+          <FormContact />
         </div>
       </div>
     </div>

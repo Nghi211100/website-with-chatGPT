@@ -13,7 +13,7 @@ export default function Testimonials() {
 
   return (
     <section className="bg-[linear-gradient(85deg,#0e3a68_20%,#158eb1_100%)]">
-      <div className="max-w-[1200px] mx-auto overflow-hidden">
+      <div className="max-w-[1200px] mx-auto">
         <Slider {...settings}>
           <div className="md:!grid md:!grid-cols-2 md:!px-6 lg:!px-8">
             <div className="py-12 px-6 md:flex md:flex-col md:border-r md:border-[#137894] md:py-16 md:pl-0 md:pr-10 lg:pr-16">

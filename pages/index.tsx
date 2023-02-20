@@ -12,7 +12,6 @@ import {
   NewspaperIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
-import Link from "next/link";
 
 export default function index() {
   const { t } = useTranslation();
@@ -42,22 +41,14 @@ export default function index() {
               cards={cards}
               title={t("headersection.home.title")}
               description={t("headersection.home.description")}
-              imgLink={"/images/Web-Developer-San-Francisco.jpeg"}
-              button={
-                <a
-                  href="/about"
-                  className="text-base font-semibold leading-7 text-gray-900 dark:text-gray-100"
-                >
-                  {t("readMore")} <span aria-hidden="true">→</span>
-                </a>
-              }
+              imgLink={"/images/website-design.jpg"}
             />
           </div>
           <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
-            <Content />
+            <Services />
           </div>
           <div className="bg-white dark:bg-[#001e3c] ">
-            <Services />
+            <Content />
           </div>
           <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
             <Portfolio />
@@ -65,7 +56,7 @@ export default function index() {
           <div className="bg-white dark:bg-[#001e3c]">
             <Team />
           </div>
-          <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
+          <div className="bg-[#f3f6f9] dark:bg-[#0a1929] overflow-hidden">
             <Testimonials />
           </div>
           <div className="bg-white dark:bg-[#001e3c]">

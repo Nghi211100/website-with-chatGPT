@@ -60,7 +60,7 @@ export default function HeroSection({
                   alt="App screenshot"
                   width={2432}
                   height={1442}
-                  className="w-[76rem] max-h-[500px] rounded-md shadow-2xl ring-1 ring-gray-900/10 dark:ring-[#183b61]"
+                  className="object-cover w-[76rem] max-h-[500px] rounded-md shadow-2xl ring-1 ring-gray-900/10 dark:ring-[#183b61]"
                 />
               </div>
             </div>

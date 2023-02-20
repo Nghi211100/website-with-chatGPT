@@ -1,13 +1,7 @@
 import { Disclosure } from "@headlessui/react";
-import {
-  Bars3Icon,
-  MoonIcon,
-  SunIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import ThemeSwitcher from "./ThemeSwitcher";
 
@@ -64,13 +58,13 @@ export default function Header() {
               <div className="flex flex-1 items-center md:items-stretch justify-start gap-5">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="block h-8 w-auto lg:hidden"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=500"
+                    className="block h-11 w-auto lg:hidden"
+                    src="/images/logo_only.webp"
                     alt="Your Company"
                   />
                   <img
-                    className="hidden h-8 w-auto lg:block"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=500"
+                    className="hidden h-11 w-auto lg:block"
+                    src="/images/logo_only.webp"
                     alt="Your Company"
                   />
                 </div>

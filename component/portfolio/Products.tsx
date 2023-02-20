@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { useTranslation } from "react-i18next";
+import Product from "./Product";
 
 export default function Products({
   title,
@@ -13,6 +13,7 @@ export default function Products({
   products: any;
 }) {
   const { t } = useTranslation();
+
   return (
     <div className="mx-auto max-w-2xl py-16 px-4 sm:px-6 lg:max-w-[1200px]">
       <div className="md:flex md:items-center md:justify-between">
@@ -30,22 +31,10 @@ export default function Products({
         )}
       </div>
 
-      <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
+      <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-4">
         {products.map((product: any) => (
           <div key={product.id} className="group relative">
-            <div className="w-full overflow-hidden rounded-xl bg-gray-200 group-hover:opacity-75">
-              <Image
-                src={product.imageSrc}
-                alt={product.imageAlt}
-                height={200}
-                width={500}
-              />
-            </div>
-            <h3 className="mt-4 text-sm text-gray-700">
-              <span className="absolute inset-0" />
-              {product.name}
-            </h3>
-            <p className="mt-1 text-sm text-gray-500">{product.description}</p>
+            <Product product={product} />
           </div>
         ))}
       </div>

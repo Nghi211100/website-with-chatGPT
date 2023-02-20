@@ -7,19 +7,16 @@ export default function Services() {
 
   const services = [
     {
-      id: "service01",
       name: t("services.service01.name"),
       description: t("services.service01.description"),
       imageUrl: "/images/web-development-stacks_.jpg",
     },
     {
-      id: "service02",
       name: t("services.service02.name"),
       description: t("services.service02.description"),
       imageUrl: "/images/mobile-development.jpeg",
     },
     {
-      id: "service03",
       name: t("services.service03.name"),
       description: t("services.service03.description"),
       imageUrl: "/images/cloud.webp",
@@ -28,20 +25,23 @@ export default function Services() {
   return (
     <div className="py-16">
       <div className="mx-auto max-w-[1200px] px-5 sm:px-8">
-        <div className="mx-auto max-w-2xl lg:text-center">
+        <div className="mx-auto lg:text-center">
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
             {t("services.title")}
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
             {t("services.description01")}
           </p>
+          <Link href={"/contact"} className="text-blue-500 font-semibold">
+            {t("contact.contactNow")}
+            {" -->"}
+          </Link>
         </div>
         <div className="mx-auto pt-8 max-w-2xl lg:max-w-[1200px] space-y-6">
           <div className="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
             {services.map((service, index) => (
-              <Link
+              <div
                 key={index}
-                href={`/services/${service.id}`}
                 className="w-full h-full shadow-lg dark:shadow-[inset_0px_-1px_1px_#132f4c] dark:border-[#1e4976] dark:border rounded-xl overflow-hidden"
               >
                 <div className="h-[150px] relative">
@@ -60,7 +60,7 @@ export default function Services() {
                     {service.description}
                   </p>
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
           <div className="pt-6">

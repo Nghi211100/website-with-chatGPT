@@ -91,18 +91,21 @@ export default function index() {
           title={t("services.title")}
           description={t("services.description")}
           imgLink={"/images/Hero_Service.png"}
+          button={
+            <div className="w-max bg-blue-500 px-4 py-3 text-white rounded-xl mb-16 hover:bg-blue-600">
+              <Link href={"/contact"}>{t("contact.contactNow")}</Link>
+            </div>
+          }
         />
+
         <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
-          <Content />
-        </div>
-        <div className="bg-white dark:bg-[#001e3c]">
           <Feature
             features={webFeatures}
             title={"Web Application Development"}
             imgLink={"/images/website-design.jpg"}
           />
         </div>
-        <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
+        <div className="bg-white dark:bg-[#001e3c]">
           <Feature
             features={MobileFeatures}
             title={"Mobile Application Development"}
@@ -110,15 +113,15 @@ export default function index() {
             imgLink={"/images/mobile-design.jpeg"}
           />
         </div>
-        <div className="bg-white dark:bg-[#001e3c]">
+        <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
           <Feature
             features={solutionFeatures}
             title={"Cloud Solutions and Services"}
             imgLink={"/images/solutionandservice.jpg"}
           />
         </div>
-        <div className="w-max mx-auto bg-blue-500 px-4 py-3 text-white rounded-xl mb-16 hover:bg-blue-600">
-          <Link href={"/contact"}>{t("contact.contactNow")}</Link>
+        <div className="bg-white dark:bg-[#001e3c]">
+          <Content />
         </div>
       </Layout>
     </>

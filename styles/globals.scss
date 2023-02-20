@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-arrow {
+  color: rgb(59 130 246) !important;
+  &::before{
+    color: unset !important;
+  }
+}

@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const [email, setEmail] = useState("");
+
   const { t } = useTranslation();
   const navigation = {
     solutions: [
@@ -90,6 +93,15 @@ export default function Footer() {
       },
     ],
   };
+
+  const handleChangeEmail = (e: any) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubmit = () => {
+    console.log(email);
+    setEmail("");
+  };
   return (
     <footer
       className="bg-white dark:bg-[#001e3c] relative bottom-0 border-t border-gray-200 dark:border-[#183b61] "
@@ -102,8 +114,8 @@ export default function Footer() {
         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
           <div>
             <img
-              className="h-8"
-              src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=500"
+              className="h-11"
+              src="/images/logo_only.webp"
               alt="Company name"
             />
             <div className="pt-5">
@@ -115,7 +127,7 @@ export default function Footer() {
                   {t("footer.description")}
                 </p>
               </div>
-              <form className="mt-6 sm:flex sm:max-w-md lg:mt-5">
+              <div className="mt-6 sm:flex sm:max-w-md lg:mt-5">
                 <label htmlFor="email-address" className="sr-only">
                   {t("footer.emailAddress")}
                 </label>
@@ -125,18 +137,21 @@ export default function Footer() {
                   id="email-address"
                   autoComplete="email"
                   required
-                  className="w-full min-w-0 appearance-none rounded-xl border-white/10 bg-gray-400/10 px-[calc(theme(spacing.3)-1px)] py-[calc(theme(spacing[1.5])-1px)] text-base leading-7 text-white placeholder-gray-500 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:w-56 sm:text-sm sm:leading-6"
+                  value={email}
+                  className="w-full min-w-0 appearance-none rounded-xl border-white/10 bg-gray-400/10 px-[calc(theme(spacing.3)-1px)] py-[calc(theme(spacing[1.5])-1px)] text-base leading-7 text-gray-500 dark:text-white placeholder-gray-500 shadow-sm focus:border-0 focus:ring-0 sm:w-56 sm:text-sm sm:leading-6 outline-none"
                   placeholder={`${t("footer.enterEmail")}`}
+                  onChange={(e) => handleChangeEmail(e)}
                 />
                 <div className="mt-4 sm:mt-0 sm:ml-4 sm:flex-shrink-0">
                   <button
-                    type="submit"
+                    type="button"
                     className="flex w-full items-center justify-center rounded-xl bg-blue-500 py-1.5 px-3 text-base font-semibold leading-7 text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:text-sm sm:leading-6"
+                    onClick={() => handleSubmit()}
                   >
                     {t("footer.subscribe")}
                   </button>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
 
