@@ -1,0 +1,302 @@
+[
+    {
+        "title": "ProjectPlanner",
+        "descriptionEn": "A web-based project management tool with real-time collaboration features. Keep track of tasks, deadlines, and resources in one place.",
+        "descriptionVi": "Một công cụ quản lý dự án dựa trên web với các tính năng cộng tác trong thời gian thực. Theo dõi các nhiệm vụ, thời hạn và tài nguyên ở một nơi.",
+        "image": "/images/projectplanner.png",
+        "category": {
+            "href": "/portfolio/website",
+            "name": "website"
+        }
+    },
+    {
+        "title": "ShopifyWeb",
+        "descriptionEn": "An e-commerce platform with customizable themes and secure payment gateway integration. Sell products online and manage orders easily.",
+        "descriptionVi": "Một nền tảng thương mại điện tử với các chủ đề có thể tùy chỉnh và tích hợp cổng thanh toán an toàn. Bán sản phẩm trực tuyến và quản lý đơn hàng dễ dàng.",
+        "image": "/images/shopifyweb.webp",
+        "category": {
+            "href": "/portfolio/website",
+            "name": "website"
+        }
+    },
+    {
+        "title": "SocializeNet",
+        "descriptionEn": "A social networking site with user profiles, activity feeds, and messaging features. Connect with friends and family online.",
+        "descriptionVi": "Một trang web mạng xã hội có hồ sơ người dùng, nguồn cấp dữ liệu hoạt động và các tính năng nhắn tin. Kết nối với bạn bè và gia đình trực tuyến.",
+        "image": "/images/SocializeNet.jpg",
+        "category": {
+            "href": "/portfolio/website",
+            "name": "website"
+        }
+    },
+    {
+        "title": "WebBuilderPro",
+        "descriptionEn": "A responsive website builder with drag-and-drop functionality and customizable templates. Build professional-looking websites with ease.",
+        "descriptionVi": "Trình tạo trang web đáp ứng với chức năng kéo và thả và các mẫu có thể tùy chỉnh. Xây dựng các trang web chuyên nghiệp một cách dễ dàng.",
+        "image": "/images/webbuilderpro.webp",
+        "category": {
+            "href": "/portfolio/website",
+            "name": "website"
+        }
+    },
+    {
+        "title": "ContentoCMS",
+        "descriptionEn": "A content management system with a powerful editor and user-friendly interface. Publish and manage content on your website.",
+        "descriptionVi": "Một hệ thống quản lý nội dung với trình chỉnh sửa mạnh mẽ và giao diện thân thiện với người dùng. Xuất bản và quản lý nội dung trên trang web của bạn.",
+        "image": "/images/contentocms.png",
+        "category": {
+            "href": "/portfolio/website",
+            "name": "website"
+        }
+    },
+    {
+        "title": "TaskMasterPro",
+        "descriptionEn": "A web-based project management tool with task scheduling, time tracking, and reporting features. Manage your team's workload and progress effectively.",
+        "descriptionVi": "Một công cụ quản lý dự án dựa trên web với các tính năng lập lịch tác vụ, theo dõi thời gian và báo cáo. Quản lý khối lượng công việc và tiến độ của nhóm bạn một cách hiệu quả.",
+        "image": "/images/taskmasterpro.png",
+        "category": {
+            "href": "/portfolio/website",
+            "name": "website"
+        }
+    },
+    {
+        "title": "BookItNow",
+        "descriptionEn": "A booking and scheduling system with calendar integration and customizable appointment types. Manage bookings for your business with ease.",
+        "descriptionVi": "Một hệ thống đặt trước và lên lịch với tích hợp lịch và các loại cuộc hẹn có thể tùy chỉnh. Quản lý đặt chỗ cho doanh nghiệp của bạn một cách dễ dàng.",
+        "image": "/images/bookitnow.png",
+        "category": {
+            "href": "/portfolio/website",
+            "name": "website"
+        }
+    },
+    {
+        "title": "LearnOnlinePro",
+        "descriptionEn": "An online learning platform with course creation tools and student tracking features. Create and sell courses online.",
+        "descriptionVi": "Một nền tảng học tập trực tuyến với các công cụ tạo khóa học và các tính năng theo dõi sinh viên. Tạo và bán các khóa học trực tuyến.",
+        "image": "/images/LearnOnlinePro.webp",
+        "category": {
+            "href": "/portfolio/website",
+            "name": "website"
+        }
+    },
+    {
+        "title": "SalesforceCRM",
+        "descriptionEn": "A customer relationship management system with lead tracking, sales forecasting, and analytics. Manage customer relationships and sales effectively.",
+        "descriptionVi": "Một hệ thống quản lý quan hệ khách hàng với tính năng theo dõi khách hàng tiềm năng, dự báo doanh số bán hàng và phân tích. Quản lý quan hệ khách hàng và bán hàng hiệu quả.",
+        "image": "/images/salesforcecrm.png",
+        "category": {
+            "href": "/portfolio/website",
+            "name": "website"
+        }
+    },
+    {
+        "title": "EventifyPro",
+        "descriptionEn": "An event management platform with ticketing, registration, and check-in features. Organize and manage events with ease.",
+        "descriptionVi": "Một nền tảng quản lý sự kiện với các tính năng bán vé, đăng ký và đăng ký. Tổ chức và quản lý các sự kiện một cách dễ dàng.",
+        "image": "/images/eventifypro.png",
+        "category": {
+            "href": "/portfolio/website",
+            "name": "website"
+        }
+    },
+    {
+        "title": "FitPal",
+        "descriptionEn": "A fitness tracking app with personalized workout plans and nutrition tracking. Achieve your fitness goals with ease.",
+        "descriptionVi": "Một ứng dụng theo dõi tập thể dục với các kế hoạch tập luyện được cá nhân hóa và theo dõi dinh dưỡng. Đạt được mục tiêu tập thể dục của bạn một cách dễ dàng.",
+        "image": "/images/fitpal.webp",
+        "category": {
+            "href": "/portfolio/mobile",
+            "name": "mobile"
+        }
+    },
+    {
+        "title": "TravelMate",
+        "descriptionEn": "A travel planning app with trip itinerary creation and booking features. Plan and book your dream vacation.",
+        "descriptionVi": "Một ứng dụng lập kế hoạch du lịch với các tính năng đặt và tạo hành trình chuyến đi. Lập kế hoạch và đặt kỳ nghỉ mơ ước của bạn.",
+        "image": "/images/travelmate.png",
+        "category": {
+            "href": "/portfolio/mobile",
+            "name": "mobile"
+        }
+    },
+    {
+        "title": "EventGo",
+        "descriptionEn": "An event discovery app with personalized recommendations based on user preferences. Discover and attend events in your area.",
+        "descriptionVi": "Một ứng dụng khám phá sự kiện với các đề xuất được cá nhân hóa dựa trên sở thích của người dùng. Khám phá và tham dự các sự kiện trong khu vực của bạn.",
+        "image": "/images/eventgo.png",
+        "category": {
+            "href": "/portfolio/mobile",
+            "name": "mobile"
+        }
+    },
+    {
+        "title": "ChatNow",
+        "descriptionEn": "A messaging app with real-time chat, video calling, and voice calling features. Stay connected with friends and family.",
+        "descriptionVi": "Một ứng dụng nhắn tin với các tính năng trò chuyện, gọi video và gọi thoại trong thời gian thực. Luôn kết nối với bạn bè và gia đình.",
+        "image": "/images/chatnow.webp",
+        "category": {
+            "href": "/portfolio/mobile",
+            "name": "mobile"
+        }
+    },
+    {
+        "title": "BookWorm",
+        "descriptionEn": "An e-book reader app with a large collection of books and customizable reading settings. Read books on your mobile device.",
+        "descriptionVi": "Ứng dụng đọc sách điện tử với bộ sưu tập sách lớn và cài đặt đọc có thể tùy chỉnh. Đọc sách trên thiết bị di động của bạn.",
+        "image": "/images/bookworm.webp",
+        "category": {
+            "href": "/portfolio/mobile",
+            "name": "mobile"
+        }
+    },
+    {
+        "title": "FoodieFrenzy",
+        "descriptionEn": "A food delivery app with restaurant recommendations, menus, and easy ordering features. Order food from your favorite restaurants.",
+        "descriptionVi": "Một ứng dụng giao đồ ăn với các gợi ý về nhà hàng, thực đơn và các tính năng đặt hàng dễ dàng. Đặt món ăn từ các nhà hàng yêu thích của bạn.",
+        "image": "/images/foodiefrenzy.webp",
+        "category": {
+            "href": "/portfolio/mobile",
+            "name": "mobile"
+        }
+    },
+    {
+        "title": "MoneyMatters",
+        "descriptionEn": "A personal finance app with budget tracking, expense categorization, and bill reminder features. Manage your finances on the go.",
+        "descriptionVi": "Một ứng dụng tài chính cá nhân với các tính năng theo dõi ngân sách, phân loại chi phí và nhắc nhở hóa đơn. Quản lý tài chính của bạn trên đường đi.",
+        "image": "/images/moneymatters.jpg",
+        "category": {
+            "href": "/portfolio/mobile",
+            "name": "mobile"
+        }
+    },
+    {
+        "title": "MediLog",
+        "descriptionEn": "A medical record keeping app with symptom tracking, prescription management, and appointment scheduling features. Keep track of your health easily.",
+        "descriptionVi": "Một ứng dụng lưu giữ hồ sơ y tế với các tính năng theo dõi triệu chứng, quản lý đơn thuốc và đặt lịch hẹn. Theo dõi sức khỏe của bạn một cách dễ dàng.",
+        "image": "/images/medilog.png",
+        "category": {
+            "href": "/portfolio/mobile",
+            "name": "mobile"
+        }
+    },
+    {
+        "title": "HomeMate",
+        "descriptionEn": "A smart home automation app with voice control and remote access features. Control your smart devices from your mobile device.",
+        "descriptionVi": "Một ứng dụng tự động hóa nhà thông minh với các tính năng điều khiển bằng giọng nói và truy cập từ xa. Kiểm soát các thiết bị thông minh của bạn từ thiết bị di động của bạn.",
+        "image": "/images/homemate.webp",
+        "category": {
+            "href": "/portfolio/mobile",
+            "name": "mobile"
+        }
+    },
+    {
+        "title": "GroceryGenie",
+        "descriptionEn": "A grocery shopping app with list creation, barcode scanning, and price comparison features. Shop for groceries efficiently.",
+        "descriptionVi": "Một ứng dụng mua sắm hàng tạp hóa với các tính năng tạo danh sách, quét mã vạch và so sánh giá. Mua sắm hàng tạp hóa hiệu quả.",
+        "image": "/images/grocerygenie.webp",
+        "category": {
+            "href": "/portfolio/mobile",
+            "name": "mobile"
+        }
+    },
+    {
+        "title": "CloudStoragePro",
+        "descriptionEn": "A cloud-based file storage and sharing solution with advanced security features and collaboration tools. Store and share files securely.",
+        "descriptionVi": "Giải pháp lưu trữ và chia sẻ tệp dựa trên đám mây với các tính năng bảo mật nâng cao và công cụ cộng tác. Lưu trữ và chia sẻ tệp một cách an toàn.",
+        "image": "/images/cloudstoragepro.png",
+        "category": {
+            "href": "/portfolio/solution",
+            "name": "solution"
+        }
+    },
+    {
+        "title": "CloudBackup",
+        "descriptionEn": "A cloud-based backup and disaster recovery solution with automated backup and recovery processes. Protect your data from loss.",
+        "descriptionVi": "Giải pháp sao lưu và khôi phục thảm họa dựa trên đám mây với các quy trình sao lưu và khôi phục tự động. Bảo vệ dữ liệu của bạn khỏi mất mát.",
+        "image": "/images/cloudbackup.png",
+        "category": {
+            "href": "/portfolio/solution",
+            "name": "solution"
+        }
+    },
+    {
+        "title": "CloudSecurity",
+        "descriptionEn": "A cloud-based security solution with advanced threat detection and response capabilities. Keep your systems and data secure.",
+        "descriptionVi": "Một giải pháp bảo mật dựa trên đám mây với khả năng phát hiện và phản hồi mối đe dọa tiên tiến. Giữ an toàn cho hệ thống và dữ liệu của bạn.",
+        "image": "/images/cloudsecurity.jpg",
+        "category": {
+            "href": "/portfolio/solution",
+            "name": "solution"
+        }
+    },
+    {
+        "title": "CloudHosting",
+        "descriptionEn": "A cloud-based hosting solution with flexible and scalable resources. Host your websites and applications in the cloud.",
+        "descriptionVi": "Một giải pháp lưu trữ dựa trên đám mây với các tài nguyên linh hoạt và có thể mở rộng. Lưu trữ các trang web và ứng dụng của bạn trên đám mây.",
+        "image": "/images/cloudhosting.png",
+        "category": {
+            "href": "/portfolio/solution",
+            "name": "solution"
+        }
+    },
+    {
+        "title": "CloudMonitoring",
+        "descriptionEn": "A cloud-based monitoring solution with real-time alerts and analytics. Monitor your systems and applications in the cloud.",
+        "descriptionVi": "A cloud-based monitoring solution with real-time alerts and analytics. Monitor your systems and applications in the cloud.",
+        "image": "/images/cloudmonitoring.jpg",
+        "category": {
+            "href": "/portfolio/solution",
+            "name": "solution"
+        }
+    },
+    {
+        "title": "CloudMigration",
+        "descriptionEn": "A cloud-based migration solution with seamless migration of applications and data to the cloud. Migrate to the cloud with ease.",
+        "descriptionVi": "Một giải pháp di chuyển dựa trên đám mây với khả năng di chuyển liền mạch các ứng dụng và dữ liệu lên đám mây. Di chuyển sang đám mây một cách dễ dàng.",
+        "image": "/images/cloudmigration.jpeg",
+        "category": {
+            "href": "/portfolio/solution",
+            "name": "solution"
+        }
+    },
+    {
+        "title": "CloudIntegration",
+        "descriptionEn": "A cloud-based integration solution with seamless integration of multiple applications and data sources. Integrate your systems in the cloud.",
+        "descriptionVi": "Một giải pháp tích hợp dựa trên đám mây với khả năng tích hợp liền mạch nhiều ứng dụng và nguồn dữ liệu. Tích hợp hệ thống của bạn trong đám mây.",
+        "image": "/images/cloudintegration.png",
+        "category": {
+            "href": "/portfolio/solution",
+            "name": "solution"
+        }
+    },
+    {
+        "title": "CloudConsulting",
+        "descriptionEn": "A cloud-based consulting solution with expert guidance and advice on cloud strategy and implementation. Get the most out of your cloud solutions.",
+        "descriptionVi": "Một giải pháp tư vấn dựa trên đám mây với hướng dẫn và lời khuyên của chuyên gia về chiến lược và triển khai đám mây. Tận dụng tối đa các giải pháp đám mây của bạn.",
+        "image": "/images/cloudconsulting.png",
+        "category": {
+            "href": "/portfolio/solution",
+            "name": "solution"
+        }
+    },
+    {
+        "title": "CloudDevelopment",
+        "descriptionEn": "A cloud-based development solution with access to tools and resources for cloud-native application development. Develop applications in the cloud.",
+        "descriptionVi": "Một giải pháp phát triển dựa trên đám mây với quyền truy cập vào các công cụ và tài nguyên để phát triển ứng dụng gốc trên đám mây. Phát triển các ứng dụng trên đám mây.",
+        "image": "/images/clouddevelopment.jpeg",
+        "category": {
+            "href": "/portfolio/solution",
+            "name": "solution"
+        }
+    },
+    {
+        "title": "CloudAnalytics",
+        "descriptionEn": "A cloud-based analytics solution with advanced analytics and reporting capabilities. Analyze your data in the cloud.",
+        "descriptionVi": "Một giải pháp phân tích dựa trên đám mây với khả năng báo cáo và phân tích nâng cao. Phân tích dữ liệu của bạn trên đám mây.",
+        "image": "/images/cloudanalytics.png",
+        "category": {
+            "href": "/portfolio/solution",
+            "name": "solution"
+        }
+    }
+]

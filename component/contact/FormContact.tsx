@@ -35,7 +35,7 @@ export default function FormContact() {
           From: email,
           To: "hi@omnistack.co",
           Subject: `New message from ${fullName}`,
-          TextBody: message,
+          TextBody: `Dear team, I am ${fullName} - number phone: ${phone}, ${message}`,
         },
         {
           headers: {

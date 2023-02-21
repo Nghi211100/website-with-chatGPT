@@ -4,6 +4,9 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com'],
   },
+  env: {
+    POSTMARK_API_TOKEN: process.env.POSTMARK_API_TOKEN,
+  }
 }
 
 module.exports = nextConfig

@@ -1,6 +1,6 @@
 {
-    "headersection":{      
-        "home":{
+    "headersection": {
+        "home": {
             "title": "Chào mừng đến với OmniStack",
             "description": "Đối tác của bạn về giải pháp công nghệ - Trao quyền cho thế giới kỹ thuật số của bạn bằng các giải pháp sáng tạo.",
             "card-one": {
@@ -16,33 +16,33 @@
                 "description": "Với mức giá không quá đắt, sự hỗ trợ nhiệt tình chu đáo của chúng tôi sẽ mang đến cho bạn sự hài lòng tuyệt đối."
             }
         },
-        "portfolio":{
+        "portfolio": {
             "title": "Thành tựu",
             "description": "Bước vào thế giới của sự đổi mới và sáng tạo. Chào mừng bạn đến với danh mục đầu tư của OmniStack, nơi công nghệ và chuyên môn kết hợp để biến ý tưởng của bạn thành hiện thực. Danh mục đầu tư của chúng tôi giới thiệu một loạt các giải pháp CNTT đa dạng mà chúng tôi đã cung cấp cho khách hàng trong các ngành công nghiệp khác nhau."
         }
     },
-    "content":{
+    "content": {
         "title": "Cung cấp những gì khách hàng của bạn muốn mọi lúc",
         "description": "Mang lại trải nghiệm người dùng tốt, gần gũi với người dùng để cải thiện ứng dụng để đáp ứng tất cả các yêu cầu từ người dùng",
         "delivery": "Cung cấp",
         "efficiency": "Hiệu suất",
-        "customer": "Khách hàng"      
+        "customer": "Khách hàng"
     },
-    "header":{
+    "header": {
         "home": "Trang chủ",
         "about": "Về chúng tôi",
         "services": "Dịch vụ",
         "contact": "Liên hệ",
         "portfolio": "Thành tựu"
     },
-    "footer":{
+    "footer": {
         "title": "Theo dõi bản tin của chúng tôi",
         "description": "Các tin tức, bài báo và tài nguyên mới nhất được gửi đến hộp thư đến của bạn hàng tuần.",
         "emailAddress": "Địa chỉ Email",
         "subscribe": "Đăng ký",
         "enterEmail": "Nhập email của bạn"
     },
-    "language":{
+    "language": {
         "english": "Tiếng anh",
         "vietnamese": "Tiếng việt"
     },
@@ -73,40 +73,10 @@
         "title": "Danh mục thành tựu",
         "description": "Dưới đây là một số thành tựu dự án của chúng tôi",
         "trust": "Minh chứng cho sự uy tín của chúng tôi!",
-        "content":{
+        "content": {
             "content01": "Từ phát triển ứng dụng web đến phát triển ứng dụng di động và từ các giải pháp đám mây đến dịch vụ CNTT, danh mục đầu tư của chúng tôi nói lên rất nhiều điều về cam kết của chúng tôi trong việc cung cấp các giải pháp công nghệ hàng đầu. Mỗi dự án là minh chứng cho chuyên môn, sự sáng tạo và động lực của chúng tôi để giúp khách hàng đạt được mục tiêu kinh doanh của họ.",
             "content02": "Khám phá chất lượng công việc của chúng tôi và trải nghiệm sự khác biệt mà OmniStack có thể tạo ra cho doanh nghiệp của bạn. Hãy sẵn sàng để được truyền cảm hứng từ tác động của chúng tôi đối với khách hàng của mình và tưởng tượng những gì chúng tôi có thể làm cho bạn. Khám phá danh mục đầu tư của chúng tôi ngay bây giờ và xem sức mạnh của công nghệ được đưa vào cuộc sống."
         }
-    },
-    "product":{
-        "website":{
-            "title": "Trang web",
-            "prod":{
-                "prod01":{
-                    "name": "Công ty ABC",
-                    "description": "Công ty ABC là một công ty giải trí ..."
-                }
-            }
-        },
-        "mobile":{
-            "title": "Di động",
-            "prod":{
-                "prod01":{
-                    "name": "Công ty ABC",
-                    "description": "Công ty ABC là một công ty giải trí ..."
-                }
-            }
-        },
-        "solution":{
-            "title": "Giải pháp và Dịch vụ Đám mây",
-            "prod":{
-                "prod01":{
-                    "name": "Công ty ABC",
-                    "description": "Công ty ABC là một công ty giải trí ..."
-                }
-            }
-        },
-        "viewAll": "Xem tất cả"
     },
     "team": {
         "title": "Các thành viên của chúng tôi",
@@ -116,7 +86,7 @@
     "about": {
         "title": "Về chúng tôi",
         "content": {
-            "content00":"OmniStack là một công ty công nghệ chuyên cung cấp các giải pháp phần mềm tiên tiến cho các doanh nghiệp và tổ chức. Đội ngũ các nhà phát triển và nhà thiết kế giàu kinh nghiệm của chúng tôi tận tâm cung cấp phần mềm chất lượng cao, thân thiện với người dùng và sáng tạo giúp các công ty đạt được mục tiêu của họ và dẫn đầu đối thủ.",
+            "content00": "OmniStack là một công ty công nghệ chuyên cung cấp các giải pháp phần mềm tiên tiến cho các doanh nghiệp và tổ chức. Đội ngũ các nhà phát triển và nhà thiết kế giàu kinh nghiệm của chúng tôi tận tâm cung cấp phần mềm chất lượng cao, thân thiện với người dùng và sáng tạo giúp các công ty đạt được mục tiêu của họ và dẫn đầu đối thủ.",
             "content01": "Công ty chúng tôi là nhà cung cấp giải pháp công nghệ phần mềm hàng đầu cho các doanh nghiệp thuộc mọi quy mô. Chúng tôi đã ở trong ngành trong nhiều năm và có uy tín trong việc cung cấp phần mềm chất lượng cao đáp ứng nhu cầu độc đáo của khách hàng của chúng tôi.",
             "content02": "Nhóm của chúng tôi bao gồm các kỹ sư phần mềm, nhà thiết kế và quản lý dự án giàu kinh nghiệm làm việc cùng nhau để tạo ra các giải pháp phần mềm sáng tạo và hiệu quả. Chúng tôi luôn cập nhật các công nghệ và xu hướng mới nhất trong ngành để đảm bảo rằng khách hàng của chúng tôi nhận được các giải pháp phần mềm tiên tiến nhất hiện có.",
             "content03": "Mục tiêu của chúng tôi là giúp khách hàng hợp lý hóa hoạt động kinh doanh của họ, tăng hiệu quả, và phát triển lợi nhuận của họ. chúng tôi tin vào phát triển quan hệ đối tác lâu dài với khách hàng của chúng tôi và cung cấp hỗ trợ khách hàng đặc biệt trong suốt vòng đời của phần mềm.",
@@ -222,5 +192,11 @@
             }
         }
     },
-    "readMore": "Đọc thêm"
+    "readMore": "Đọc thêm",
+    "viewAll": "Xem tất cả",
+    "category": {
+        "website": "Trang web",
+        "mobile": "Di động",
+        "solution": "Giải pháp và dịch vụ đám mây"
+    }
 }

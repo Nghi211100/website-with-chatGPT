@@ -1,6 +1,6 @@
 {
-    "headersection":{
-        "home":{
+    "headersection": {
+        "home": {
             "title": "Welcome to OmniStack",
             "description": "Your partner in technology solutions - Empowering your digital world with innovative solutions.",
             "card-one": {
@@ -16,33 +16,33 @@
                 "description": "With the price is not too expensive, our support and enthusiasm will bring you absolute satisfaction."
             }
         },
-        "portfolio":{
+        "portfolio": {
             "title": "Portfolio",
             "description": "Step into the world of innovation and creativity. Welcome to the portfolio of OmniStack, where technology and expertise meet to bring your ideas to life. Our portfolio showcases the diverse range of IT solutions we've delivered to clients across various industries."
         }
     },
-    "content":{
+    "content": {
         "title": "Deliver what your customers want every time",
         "description": "Bring a good user experience, close to the user to improve the application to meet all requests from users",
         "delivery": "Delivery",
         "efficiency": "Efficiency",
         "customer": "Customer"
     },
-    "header":{
+    "header": {
         "home": "Home",
         "about": "About us",
         "services": "Services",
         "contact": "Contact",
         "portfolio": "Portfolio"
     },
-    "footer":{
+    "footer": {
         "title": "Subscribe to our newsletter",
         "description": "The latest news, articles, and resources, sent to your inbox weekly.",
         "emailAddress": "Email Address",
         "subscribe": "Subscribe",
         "enterEmail": "Enter your email"
     },
-    "language":{
+    "language": {
         "english": "English",
         "vietnamese": "Vietnamese"
     },
@@ -73,40 +73,10 @@
         "title": "Portfolio",
         "description": "Here are some of our project achievements",
         "trust": "Proof of our credibility!",
-        "content":{
+        "content": {
             "content01": "From web application development to mobile app development, and from cloud solutions to IT services, our portfolio speaks volumes about our commitment to delivering top-notch technology solutions. Each project is a testament to our expertise, creativity, and drive to help our clients achieve their business goals.",
             "content02": "Discover the quality of our work and experience the difference that OmniStack can make for your business. Get ready to be inspired by the impact we've had on our clients and imagine what we can do for you. Explore our portfolio now and see the power of technology brought to life."
         }
-    },
-    "product":{
-        "website":{
-            "title": "Website",
-            "prod":{
-                "prod01":{
-                    "name": "ABC Company",
-                    "description": "ABC Company is a entertainment company ..."
-                }
-            }
-        },
-        "mobile":{
-            "title": "Mobile",
-            "prod":{
-                "prod01":{
-                    "name": "ABC Company",
-                    "description": "ABC Company is a entertainment company ..."
-                }
-            }
-        },
-        "solution":{
-            "title": "Cloud Solutions and Services",
-            "prod":{
-                "prod01":{
-                    "name": "ABC Company",
-                    "description": "ABC Company is a entertainment company ..."
-                }
-            }
-        },
-        "viewAll": "View all"
     },
     "team": {
         "title": "Our team",
@@ -222,5 +192,11 @@
             }
         }
     },
-    "readMore": "Read more"
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "category": {
+        "website": "Website",
+        "mobile": "Mobile",
+        "solution": "Cloud solution and service"
+    }
 }
