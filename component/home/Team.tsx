@@ -1,36 +1,6 @@
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
-
-/* This example requires Tailwind CSS v3.0+ */
-const people = [
-  {
-    name: "Lindsay Walton",
-    role: "Front-end Developer",
-    imageUrl:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-    facebookUrl: "#",
-  },
-  {
-    name: "Lindsay Walton",
-    role: "Front-end Developer",
-    imageUrl:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-    facebookUrl: "#",
-  },
-  {
-    name: "Lindsay Walton",
-    role: "Front-end Developer",
-    imageUrl:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-    facebookUrl: "#",
-  },
-];
+import people from "@/component/aboutus/dataTeam.json";
 
 export default function Team() {
   const { t } = useTranslation();
@@ -49,7 +19,7 @@ export default function Team() {
           role="list"
           className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
         >
-          {people.map((person, index) => (
+          {people.slice(0, 3).map((person, index) => (
             <li key={index}>
               <img
                 className="aspect-[3/2] w-full rounded-2xl object-cover"

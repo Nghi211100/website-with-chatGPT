@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Bryan Nguyen",
+        "role": "CEO",
+        "imageUrl": "/images/bryan.jpg",
+        "twitterUrl": "#",
+        "linkedinUrl": "#",
+        "facebookUrl": "https://www.facebook.com/thuan5s",
+        "bio": ""
+    },
+    {
+        "name": "Alice T",
+        "role": "Leader",
+        "imageUrl": "/images/hao.jpg",
+        "twitterUrl": "#",
+        "linkedinUrl": "#",
+        "facebookUrl": "https://www.facebook.com/nohathai",
+        "bio": ""
+    },
+    {
+        "name": "Van Nghi",
+        "role": "Front-end Developer",
+        "imageUrl": "/images/nghi.jpg",
+        "twitterUrl": "https://twitter.com/VanNghi_20",
+        "linkedinUrl": "https://www.linkedin.com/in/v%C3%B5-v%C4%83n-ngh%E1%BB%8B-a2965124b",
+        "facebookUrl": "https://www.facebook.com/nghi.vovan.35912",
+        "bio": ""
+    },
+    {
+        "name": "Vo Nhat Truong",
+        "role": "Back-end Developer",
+        "imageUrl": "/images/truong.png",
+        "twitterUrl": "#",
+        "linkedinUrl": "#",
+        "facebookUrl": "#",
+        "bio": ""
+    }
+]
