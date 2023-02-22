@@ -6,18 +6,6 @@ export default function Footer() {
 
   const { t } = useTranslation();
   const navigation = {
-    solutions: [
-      { name: t("contact.marketing"), href: "#" },
-      { name: t("contact.analytics"), href: "#" },
-      { name: t("contact.commerce"), href: "#" },
-      { name: t("contact.insights"), href: "#" },
-    ],
-    support: [
-      { name: t("contact.pricing"), href: "#" },
-      { name: t("contact.documentation"), href: "#" },
-      { name: t("contact.guides"), href: "#" },
-      { name: t("contact.apiStatus"), href: "#" },
-    ],
     company: [
       { name: t("header.about"), href: "/about" },
       { name: t("header.services"), href: "/services" },
@@ -111,7 +99,7 @@ export default function Footer() {
         Footer
       </h2>
       <div className="mx-auto max-w-[1200px] px-5 sm:px-8 pb-10 pt-10">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-8">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-32">
           <div>
             <img
               className="h-11"
@@ -154,42 +142,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-
-          <div className="mt-12 grid lg:grid-cols-4 grid-cols-2 lg:col-span-1 lg:mt-0">
-            <div>
-              <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-50">
-                {t("contact.solutions")}
-              </h3>
-              <ul role="list" className="mt-6 space-y-4">
-                {navigation.solutions.map((item, index) => (
-                  <li key={index}>
-                    <a
-                      href={item.href}
-                      className="text-sm leading-6 text-gray-600 dark:text-gray-400 hover:text-gray-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-50">
-                {t("contact.support")}
-              </h3>
-              <ul role="list" className="mt-6 space-y-4">
-                {navigation.support.map((item, index) => (
-                  <li key={index}>
-                    <a
-                      href={item.href}
-                      className="text-sm leading-6 text-gray-600 dark:text-gray-400 hover:text-gray-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          <div className="mt-12 grid lg:grid-cols-2 grid-cols-2 lg:col-span-1 lg:mt-0 gap-6">
             <div>
               <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-50">
                 {t("contact.company")}
