@@ -41,7 +41,7 @@ export default function index() {
               cards={cards}
               title={t("headersection.home.title")}
               description={t("headersection.home.description")}
-              imgLink={"/images/website-design.jpg"}
+              imgLink={"/images/homehero.jpg"}
             />
           </div>
           <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">

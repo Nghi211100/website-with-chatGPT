@@ -90,7 +90,7 @@ export default function index() {
           cards={cards}
           title={t("services.title")}
           description={t("services.description")}
-          imgLink={"/images/Hero_Service.png"}
+          imgLink={"/images/servicehero.jpg"}
           button={
             <div className="w-max bg-blue-500 px-4 py-3 text-white rounded-xl mb-16 hover:bg-blue-600">
               <Link href={"/contact"}>{t("contact.contactNow")}</Link>
