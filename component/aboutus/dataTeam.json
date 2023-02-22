@@ -2,37 +2,41 @@
     {
         "name": "Bryan Nguyen",
         "role": "CEO",
-        "imageUrl": "/images/bryan.jpg",
+        "imageUrl": "/images/male.jpg",
         "twitterUrl": "#",
         "linkedinUrl": "#",
         "facebookUrl": "https://www.facebook.com/thuan5s",
-        "bio": ""
+        "bioEn": "He is a visionary leader with extensive experience in technology and a passion for innovation, dedicated to driving the company's success and growth.",
+        "bioVi": "Anh ấy là một nhà lãnh đạo có tầm nhìn với kinh nghiệm sâu rộng về công nghệ và niềm đam mê đổi mới, tận tâm thúc đẩy sự thành công và tăng trưởng của công ty."
     },
     {
         "name": "Alice T",
-        "role": "Leader",
-        "imageUrl": "/images/hao.jpg",
+        "role": "Head of Sales",
+        "imageUrl": "/images/female.jpg",
         "twitterUrl": "#",
         "linkedinUrl": "#",
         "facebookUrl": "https://www.facebook.com/nohathai",
-        "bio": ""
+        "bioEn": "She is a results-driven leader with a passion for building strong relationships and delivering tailored solutions to drive business growth and customer satisfaction.",
+        "bioVi": "Cô ấy là một nhà lãnh đạo hướng đến kết quả với niềm đam mê xây dựng các mối quan hệ bền chặt và cung cấp các giải pháp phù hợp để thúc đẩy tăng trưởng kinh doanh và sự hài lòng của khách hàng."
     },
     {
         "name": "Van Nghi",
         "role": "Front-end Developer",
-        "imageUrl": "/images/nghi.jpg",
+        "imageUrl": "/images/male.jpg",
         "twitterUrl": "https://twitter.com/VanNghi_20",
         "linkedinUrl": "https://www.linkedin.com/in/v%C3%B5-v%C4%83n-ngh%E1%BB%8B-a2965124b",
         "facebookUrl": "https://www.facebook.com/nghi.vovan.35912",
-        "bio": ""
+        "bioEn": "He is a talented professional with a deep understanding of the latest technologies and a commitment to delivering high-quality, user-friendly solutions for our clients.",
+        "bioVi": "Anh ấy là một chuyên gia tài năng với hiểu biết sâu sắc về các công nghệ mới nhất và cam kết cung cấp các giải pháp chất lượng cao, thân thiện với người dùng cho khách hàng của chúng tôi."
     },
     {
         "name": "Vo Nhat Truong",
-        "role": "Back-end Developer",
-        "imageUrl": "/images/truong.png",
+        "role": "CTO",
+        "imageUrl": "/images/male.jpg",
         "twitterUrl": "#",
         "linkedinUrl": "#",
         "facebookUrl": "#",
-        "bio": ""
+        "bioEn": "He is a highly skilled and experienced technology expert with a strong track record of developing innovative solutions and driving the company's technical strategy and vision.",
+        "bioVi": "Anh ấy là một chuyên gia công nghệ có tay nghề cao và giàu kinh nghiệm với bề dày thành tích trong việc phát triển các giải pháp sáng tạo và thúc đẩy tầm nhìn và chiến lược kỹ thuật của công ty."
     }
 ]

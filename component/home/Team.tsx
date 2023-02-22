@@ -22,7 +22,7 @@ export default function Team() {
           {people.slice(0, 3).map((person, index) => (
             <li key={index}>
               <img
-                className="aspect-[3/2] w-full rounded-2xl object-cover"
+                className="aspect-[3/2] w-full rounded-2xl object-contain border"
                 src={person.imageUrl}
                 alt=""
               />
