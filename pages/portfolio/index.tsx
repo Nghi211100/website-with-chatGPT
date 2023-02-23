@@ -4,64 +4,43 @@ import Content from "@/component/portfolio/Content";
 import Products from "@/component/portfolio/Products";
 import { useTranslation } from "react-i18next";
 import allProduct from "@/component/portfolio/data.json";
+import Combobox from "@/component/portfolio/Combobox";
+import { useEffect, useState } from "react";
+import { iProduct } from "@/component/portfolio/Product";
 
 export default function index() {
   const { t } = useTranslation();
-  const products = [
-    {
-      title: "ABC Company",
-      category: {
-        name: t("product.website.title"),
-        href: "/portfolio/website",
-      },
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    },
-    {
-      title: "ABC Company",
-      category: {
-        name: t("product.website.title"),
-        href: "/portfolio/website",
-      },
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    },
-    {
-      title: "ABC Company",
-      category: {
-        name: t("product.website.title"),
-        href: "/portfolio/website",
-      },
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    },
-    {
-      title: "ABC Company",
-      category: {
-        name: t("product.website.title"),
-        href: "/portfolio/website",
-      },
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    },
-  ];
-  const websiteProduct = allProduct.filter(
-    (product) => product.category.name === "website"
-  );
-  const mobileProduct = allProduct.filter(
-    (product) => product.category.name === "mobile"
-  );
-  const solutionProduct = allProduct.filter(
-    (product) => product.category.name === "solution"
-  );
+  const [xWeb, setXWeb] = useState(false);
+  const [xMob, setXMob] = useState(false);
+  const [xSol, setXSol] = useState(false);
+  const [products, setProducts] = useState<iProduct[]>();
+
+  const loadProduct = () => {
+    setProducts(
+      !xWeb && !xMob && !xSol
+        ? allProduct.sort((a, b) => {
+            const nameA = a.title.toUpperCase();
+            const nameB = b.title.toUpperCase();
+            if (nameA < nameB) {
+              return -1;
+            }
+            if (nameA > nameB) {
+              return 1;
+            }
+            return 0;
+          })
+        : allProduct.filter(
+            (product) =>
+              (xWeb && product.cateName === "website") ||
+              (xMob && product.cateName === "mobile") ||
+              (xSol && product.cateName === "solution")
+          )
+    );
+  };
+
+  useEffect(() => {
+    loadProduct();
+  }, [xWeb, xMob, xSol]);
 
   return (
     <>
@@ -74,26 +53,20 @@ export default function index() {
         <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
           <Content />
         </div>
-        <div className="bg-white dark:bg-[#001e3c]">
-          <Products
-            title={t("category.website")}
-            cateName="website"
-            products={websiteProduct.slice(0, 3)}
-          />
-        </div>
-        <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
-          <Products
-            title={t("category.mobile")}
-            cateName="mobile"
-            products={mobileProduct.slice(0, 3)}
-          />
-        </div>
-        <div className="bg-white dark:bg-[#001e3c]">
-          <Products
-            title={t("category.solution")}
-            cateName="solution"
-            products={solutionProduct.slice(0, 3)}
-          />
+        <div className="md:grid md:grid-cols-12 mx-auto lg:max-w-[1200px]">
+          <div className="col-span-2">
+            <Combobox
+              xWeb={xWeb}
+              setXWeb={setXWeb}
+              xMob={xMob}
+              setXMob={setXMob}
+              setXSol={setXSol}
+              xSol={xSol}
+            />
+          </div>
+          <div className="bg-white dark:bg-[#001e3c] col-span-10">
+            <Products products={products} />
+          </div>
         </div>
       </Layout>
     </>
