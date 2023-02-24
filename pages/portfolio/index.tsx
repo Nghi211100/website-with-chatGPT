@@ -14,6 +14,7 @@ export default function index() {
   const [xMob, setXMob] = useState(false);
   const [xSol, setXSol] = useState(false);
   const [products, setProducts] = useState<iProduct[]>();
+  const [loadMore, setLoadMore] = useState(1);
 
   const loadProduct = () => {
     setProducts(
@@ -42,6 +43,12 @@ export default function index() {
     loadProduct();
   }, [xWeb, xMob, xSol]);
 
+  const handleLoad = () => {
+    if (loadMore * 9 >= (products?.length || 99999)) {
+      setLoadMore(1);
+    } else setLoadMore(loadMore + 1);
+  };
+
   return (
     <>
       <Layout title="OmniStack - Portfolio Page">
@@ -65,7 +72,19 @@ export default function index() {
             />
           </div>
           <div className="bg-white dark:bg-[#001e3c] col-span-10">
-            <Products products={products} />
+            <Products products={products?.slice(0, 9 * loadMore)} />
+            <button
+              onClick={() => handleLoad()}
+              className={`${
+                loadMore * 9 >= (products?.length || 99999)
+                  ? "bg-gray-300 hover:bg-gray-400 text-black dark:bg-gray-500 hover:dark:bg-gray-600 dark:text-white"
+                  : "bg-blue-500 hover:bg-blue-600 text-white"
+              } ml-6 px-4 py-3 mb-16 rounded-xl  font-medium`}
+            >
+              {loadMore * 9 >= (products?.length || 99999)
+                ? "Hidden"
+                : "Load More"}
+            </button>
           </div>
         </div>
       </Layout>
