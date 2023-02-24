@@ -34,7 +34,7 @@ export default function Combobox({
           mobile
             ? open
               ? "h-max py-3 rounded-xl"
-              : "h-0 border-transparent"
+              : "h-0 border-transparent dark:border-transparent"
             : "block"
         }`}
       >
