@@ -97,7 +97,7 @@ export default function Combobox({
       <div className="hidden md:block">
         <div className="flex gap-2 items-center border-b border-gray-200 dark:border-[#183b61]">
           <FunnelIcon className="h-5 w-5 text-blue-500" />
-          <p className="font-medium text-blue-500">Filter</p>
+          <p className="font-medium text-blue-500">{t("portfolio.filter")}</p>
         </div>
         {Options()}
       </div>
@@ -108,7 +108,7 @@ export default function Combobox({
         >
           <div className="flex gap-2 items-center">
             <FunnelIcon className="h-5 w-5 text-blue-500" />
-            <p className="font-medium text-blue-500">Filter</p>
+            <p className="font-medium text-blue-500">{t("portfolio.filter")}</p>
           </div>
           {open ? (
             <ChevronUpIcon className="h-4 w-4 text-blue-500" />

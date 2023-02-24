@@ -76,7 +76,8 @@
         "content": {
             "content01": "Từ phát triển ứng dụng web đến phát triển ứng dụng di động và từ các giải pháp đám mây đến dịch vụ CNTT, danh mục đầu tư của chúng tôi nói lên rất nhiều điều về cam kết của chúng tôi trong việc cung cấp các giải pháp công nghệ hàng đầu. Mỗi dự án là minh chứng cho chuyên môn, sự sáng tạo và động lực của chúng tôi để giúp khách hàng đạt được mục tiêu kinh doanh của họ.",
             "content02": "Khám phá chất lượng công việc của chúng tôi và trải nghiệm sự khác biệt mà OmniStack có thể tạo ra cho doanh nghiệp của bạn. Hãy sẵn sàng để được truyền cảm hứng từ tác động của chúng tôi đối với khách hàng của mình và tưởng tượng những gì chúng tôi có thể làm cho bạn. Khám phá danh mục đầu tư của chúng tôi ngay bây giờ và xem sức mạnh của công nghệ được đưa vào cuộc sống."
-        }
+        },
+        "filter": "Bộ lọc"
     },
     "team": {
         "title": "Các thành viên của chúng tôi",
@@ -193,6 +194,8 @@
         }
     },
     "readMore": "Đọc thêm",
+    "loadMore": "Tải thêm",
+    "hide": "Ẩn bớt",
     "viewAll": "Xem tất cả",
     "category": {
         "website": "Trang web",

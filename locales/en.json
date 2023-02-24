@@ -76,7 +76,8 @@
         "content": {
             "content01": "From web application development to mobile app development, and from cloud solutions to IT services, our portfolio speaks volumes about our commitment to delivering top-notch technology solutions. Each project is a testament to our expertise, creativity, and drive to help our clients achieve their business goals.",
             "content02": "Discover the quality of our work and experience the difference that OmniStack can make for your business. Get ready to be inspired by the impact we've had on our clients and imagine what we can do for you. Explore our portfolio now and see the power of technology brought to life."
-        }
+        },
+        "filter": "Filter"
     },
     "team": {
         "title": "Our team",
@@ -193,6 +194,8 @@
         }
     },
     "readMore": "Read more",
+    "loadMore": "Load more",
+    "hide": "Hide",
     "viewAll": "View all",
     "category": {
         "website": "Website",

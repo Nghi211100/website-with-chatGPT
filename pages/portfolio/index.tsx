@@ -82,8 +82,8 @@ export default function index() {
               } ml-6 px-4 py-3 mb-16 rounded-xl  font-medium`}
             >
               {loadMore * 9 >= (products?.length || 99999)
-                ? "Hidden"
-                : "Load More"}
+                ? t("hide")
+                : t("loadMore")}
             </button>
           </div>
         </div>
