@@ -201,5 +201,8 @@
         "website": "Trang web",
         "mobile": "Di động",
         "solution": "Giải pháp và dịch vụ đám mây"
+    },
+    "toast": {
+        "sendMailSuccess": "Gửi thư thành công!"
     }
 }

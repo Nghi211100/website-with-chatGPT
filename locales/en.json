@@ -201,5 +201,8 @@
         "website": "Website",
         "mobile": "Mobile",
         "solution": "Cloud solution and service"
+    },
+    "toast": {
+        "sendMailSuccess": "Successful mailing!"
     }
 }
