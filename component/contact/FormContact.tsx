@@ -61,7 +61,7 @@ export default function FormContact() {
           name="full-name"
           id="full-name"
           autoComplete="name"
-          className="block w-full rounded-xl bg-gray bg-gray-400/10 border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-gray-500 dark:text-white"
+          className="block w-full rounded-xl bg-gray bg-gray-400/10 border-gray-300 dark:border-[#1e4976] py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-gray-500 dark:text-white"
           placeholder={`${t("contact.fullname")}`}
           value={fullName}
           onChange={(e) => handleChangeInput({ fullName: e.target.value })}
@@ -76,7 +76,7 @@ export default function FormContact() {
           name="email"
           type="email"
           autoComplete="email"
-          className="block w-full rounded-xl bg-gray bg-gray-400/10 border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-gray-500 dark:text-white"
+          className="block w-full rounded-xl bg-gray bg-gray-400/10 border-gray-300 dark:border-[#1e4976] py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-gray-500 dark:text-white"
           placeholder="Email"
           value={email}
           onChange={(e) => handleChangeInput({ email: e.target.value })}
@@ -93,7 +93,7 @@ export default function FormContact() {
           typeof="numberic"
           autoComplete="tel"
           value={phone}
-          className="block w-full rounded-xl bg-gray bg-gray-400/10 border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-gray-500 dark:text-white"
+          className="block w-full rounded-xl bg-gray bg-gray-400/10 border-gray-300 dark:border-[#1e4976] py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-gray-500 dark:text-white"
           placeholder={`${t("contact.phone")}`}
           onChange={(e) => handleChangeInput({ phone: e.target.value })}
         />
@@ -106,7 +106,7 @@ export default function FormContact() {
           id="message"
           name="message"
           rows={4}
-          className="block w-full rounded-xl bg-gray bg-gray-400/10 border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-gray-500 dark:text-white"
+          className="block w-full rounded-xl bg-gray bg-gray-400/10 border-gray-300 dark:border-[#1e4976] py-3 px-4 placeholder-gray-500 shadow-sm focus:ring-0 outline-none dark:bg-[#005eff]/20 text-gray-500 dark:text-white"
           placeholder={`${t("contact.message")}`}
           value={message}
           onChange={(e) => handleChangeInput({ message: e.target.value })}

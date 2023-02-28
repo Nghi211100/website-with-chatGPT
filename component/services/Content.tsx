@@ -24,11 +24,11 @@ export default function Content() {
       </div>
       <div className="pt-10">
         <div className="relative">
-          <div className="absolute inset-0 h-1/2 border-b shadow-md" />
+          <div className="absolute inset-0 h-1/2 border-b shadow-md dark:border-[#1e4976]" />
           <div className="relative mx-auto max-w-[1200px] px-5 sm:px-8">
             <div className="mx-auto max-w-4xl">
-              <dl className="rounded-xl bg-white dark:bg-[#001e3c] shadow-lg dark:shadow-[inset_0px_-1px_1px_#132f4c] sm:grid sm:grid-cols-3">
-                <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
+              <dl className="rounded-xl bg-white dark:bg-[#001e3c] shadow-lg dark:shadow-[inset_0px_-1px_1px_#132f4c] dark:border-[#1e4976] dark:border sm:grid sm:grid-cols-3">
+                <div className="flex flex-col border-b border-gray-100 dark:border-[#1e4976] p-6 text-center sm:border-0 sm:border-r">
                   <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
                     {t("content.efficiency")}
                   </dt>
@@ -36,7 +36,7 @@ export default function Content() {
                     99.9%
                   </dd>
                 </div>
-                <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
+                <div className="flex flex-col border-t border-b border-gray-100 dark:border-[#1e4976] p-6 text-center sm:border-0 sm:border-l sm:border-r">
                   <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
                     {t("content.delivery")}
                   </dt>
@@ -44,7 +44,7 @@ export default function Content() {
                     24/7
                   </dd>
                 </div>
-                <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
+                <div className="flex flex-col border-t border-gray-100 dark:border-[#1e4976] p-6 text-center sm:border-0 sm:border-l">
                   <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
                     {t("content.customer")}
                   </dt>
