@@ -2,7 +2,7 @@
     "headersection": {
         "home": {
             "title": "Welcome to OmniStack",
-            "description": "Your partner in technology solutions - Empowering your digital world with innovative solutions.",
+            "description": "Transform Your Business with Innovative Solutions from OmniStack - Your partner in technology solutions - Empowering your digital world with innovative solutions.",
             "card-one": {
                 "name": "Sales",
                 "description": "We have many websites for you to choose from, covering many areas such as sales, blogs, entertainment, ..."
@@ -204,5 +204,15 @@
     },
     "toast": {
         "sendMailSuccess": "Successful mailing!"
+    },
+    "specialize": {
+        "s01": "Cutting-Edge Technologies",
+        "s02": "Customized Solutions",
+        "s03": "Customer Service",
+        "s04": "Vision",
+        "s05": "Ensure",
+        "s06": "Creative",
+        "s07": "On Time",
+        "s08": "Experience"
     }
 }

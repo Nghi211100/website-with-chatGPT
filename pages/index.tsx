@@ -12,6 +12,7 @@ import {
   NewspaperIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
+import Specialize from "@/component/home/Specialize";
 
 export default function index() {
   const { t } = useTranslation();
@@ -51,15 +52,18 @@ export default function index() {
             <Content />
           </div>
           <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
+            <Specialize />
+          </div>
+          <div className="bg-white dark:bg-[#001e3c]">
             <Portfolio />
           </div>
-          <div className="bg-white dark:bg-[#001e3c]">
+          <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
             <Team />
           </div>
-          <div className="bg-[#f3f6f9] dark:bg-[#0a1929] overflow-hidden">
+          <div className="overflow-hidden">
             <Testimonials />
           </div>
-          <div className="bg-white dark:bg-[#001e3c]">
+          <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
             <Contact />
           </div>
         </div>

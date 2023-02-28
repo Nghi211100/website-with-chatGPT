@@ -2,7 +2,7 @@
     "headersection": {
         "home": {
             "title": "Chào mừng đến với OmniStack",
-            "description": "Đối tác của bạn về giải pháp công nghệ - Trao quyền cho thế giới kỹ thuật số của bạn bằng các giải pháp sáng tạo.",
+            "description": "Chuyển đổi doanh nghiệp của bạn với các giải pháp sáng tạo từ OmniStack - Đối tác của bạn về giải pháp công nghệ - Trao quyền cho thế giới kỹ thuật số của bạn bằng các giải pháp sáng tạo.",
             "card-one": {
                 "name": "Việc bán hàng",
                 "description": "Chúng tôi có nhiều trang web cho bạn lựa chọn, bao gồm nhiều lĩnh vực như bán hàng, blog, giải trí,..."
@@ -204,5 +204,15 @@
     },
     "toast": {
         "sendMailSuccess": "Gửi thư thành công!"
+    },
+    "specialize": {
+        "s01": "Công nghệ tiên tiến",
+        "s02": "Giải pháp tùy chỉnh",
+        "s03": "Dịch vụ khách hàng",
+        "s04": "Tầm nhìn",
+        "s05": "Đảm bảo",
+        "s06": "Sáng tạo",
+        "s07": "Đúng giờ",
+        "s08": "Kinh nghiệm"
     }
 }

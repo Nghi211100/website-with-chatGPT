@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="relative py-16 sm:px-8 px-5 max-w-[1200px] mx-auto">
       <p className="text-3xl lg:text-4xl font-bold pb-6 dark:text-white">
-        Contact us
+        {t("contact.title")}
       </p>
       <div className="relative mx-auto lg:grid lg:grid-cols-5 shadow-lg dark:shadow-[inset_0px_-1px_1px_#132f4c] rounded-xl overflow-hidden">
         <div className="bg-white dark:bg-[#005eff]/10 p-6 lg:col-span-2">

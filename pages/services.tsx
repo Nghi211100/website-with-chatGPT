@@ -101,14 +101,14 @@ export default function index() {
         <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
           <Feature
             features={webFeatures}
-            title={"Web Application Development"}
+            title={t("services.service01.name")}
             imgLink={"/images/website-design.jpg"}
           />
         </div>
         <div className="bg-white dark:bg-[#001e3c]">
           <Feature
             features={MobileFeatures}
-            title={"Mobile Application Development"}
+            title={t("services.service02.name")}
             left={true}
             imgLink={"/images/mobile-design.jpeg"}
           />
@@ -116,7 +116,7 @@ export default function index() {
         <div className="bg-[#f3f6f9] dark:bg-[#0a1929]">
           <Feature
             features={solutionFeatures}
-            title={"Cloud Solutions and Services"}
+            title={t("services.service03.name")}
             imgLink={"/images/solutionandservice.jpg"}
           />
         </div>
