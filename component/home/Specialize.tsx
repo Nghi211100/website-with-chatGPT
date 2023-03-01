@@ -14,7 +14,7 @@ export default function Specialize() {
     { title: t("specialize.s08"), href: "/images/user-experience.png" },
   ];
   return (
-    <div className="py-16 sm:px-8 px-5 mx-auto max-w-[1200px] grid grid-cols-4 gap-x-8 gap-y-12">
+    <div className="py-16 sm:px-8 px-5 mx-auto max-w-[1200px] grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-12">
       {spec.map((item, index) => (
         <div className="mx-auto text-center" key={index}>
           <Image
