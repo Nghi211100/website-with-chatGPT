@@ -38,7 +38,7 @@ export default function Services() {
           </Link>
         </div>
         <div className="mx-auto pt-8 max-w-2xl lg:max-w-[1200px] space-y-6">
-          <div className="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
+          <div className="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-3 lg:gap-y-16 mx-auto">
             {services.map((service, index) => (
               <div
                 key={index}
@@ -68,7 +68,7 @@ export default function Services() {
               href={"/services"}
               className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-xl h-max w-max"
             >
-              {t("services.viewAll")}
+              {t("viewDetail")}
             </Link>
           </div>
         </div>
