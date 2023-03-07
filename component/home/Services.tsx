@@ -1,3 +1,4 @@
+import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
@@ -32,9 +33,12 @@ export default function Services() {
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
             {t("services.description01")}
           </p>
-          <Link href={"/contact"} className="text-blue-500 font-semibold">
+          <Link
+            href={"/contact"}
+            className="text-blue-500 font-semibold flex justify-center items-center"
+          >
             {t("contact.contactNow")}
-            {" -->"}
+            <ArrowLongRightIcon className="h-6 pl-1" />
           </Link>
         </div>
         <div className="mx-auto pt-8 max-w-2xl lg:max-w-[1200px] space-y-6">
