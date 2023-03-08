@@ -10,13 +10,9 @@ const LanguageSwitcher = () => {
   );
 
   useEffect(() => {
-    i18n.changeLanguage(language);
-  }, [i18n.language]);
-
-  useEffect(() => {
     localStorage.setItem("language", language);
     i18n.changeLanguage(language);
-  }, [language]);
+  }, [language, i18n]);
 
   const handleLanguageChange = (e: any) => {
     setLanguage(e.value);
@@ -50,7 +46,7 @@ const LanguageSwitcher = () => {
       <Select
         className="block rounded-lg mr-5 overflow-hidden text-blue-500 shadow-sm border border-gray-300 bg-white dark:border-[#183b61] dark:bg-[#001e3c] text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent"
         classNamePrefix="select"
-        value={options.find((item) => item.value === language)}
+        value={options.find((item) => item.value === language || "en")}
         menuPosition={"fixed"}
         isSearchable={false}
         onChange={handleLanguageChange}
