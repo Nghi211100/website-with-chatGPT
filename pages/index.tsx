@@ -8,9 +8,16 @@ import Services from "@/component/home/Services";
 import Contact from "@/component/home/Contact";
 import { useTranslation } from "react-i18next";
 import Specialize from "@/component/home/Specialize";
+import { useEffect } from "react";
 
 export default function index() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const language =
+    (typeof window !== "undefined" && localStorage.getItem("language")) || "en";
+  useEffect(() => {
+    localStorage.setItem("language", language);
+    i18n.changeLanguage(language);
+  }, [language, i18n]);
   return (
     <>
       <Layout title="OmniStack - Home Page">

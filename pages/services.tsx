@@ -4,9 +4,16 @@ import HeroSection from "@/component/HeroSection";
 import Feature from "@/component/services/Feature";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function index() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const language =
+    (typeof window !== "undefined" && localStorage.getItem("language")) || "en";
+  useEffect(() => {
+    localStorage.setItem("language", language);
+    i18n.changeLanguage(language);
+  }, [language, i18n]);
   const webFeatures = [
     {
       name: t("feature.webFeatures.feat01.name"),
