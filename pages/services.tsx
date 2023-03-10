@@ -4,11 +4,6 @@ import HeroSection from "@/component/HeroSection";
 import Feature from "@/component/services/Feature";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
-import {
-  CloudIcon,
-  CommandLineIcon,
-  DeviceTabletIcon,
-} from "@heroicons/react/24/outline";
 
 export default function index() {
   const { t } = useTranslation();
