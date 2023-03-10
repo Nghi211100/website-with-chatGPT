@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 import Specialize from "@/component/home/Specialize";
 
 export default function index() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
     <>
       <Layout title="OmniStack - Home Page">

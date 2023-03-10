@@ -66,28 +66,10 @@ export default function index() {
       description: t("feature.solutionFeatures.feat04.description"),
     },
   ];
-  const cards = [
-    {
-      name: t("services.service01.name"),
-      description: t("services.service01.description"),
-      icon: CommandLineIcon,
-    },
-    {
-      name: t("services.service02.name"),
-      description: t("services.service02.description"),
-      icon: DeviceTabletIcon,
-    },
-    {
-      name: t("services.service03.name"),
-      description: t("services.service03.description"),
-      icon: CloudIcon,
-    },
-  ];
   return (
     <>
       <Layout title="OmniStack - Services Page">
         <HeroSection
-          cards={cards}
           title={t("services.title")}
           description={t("services.description")}
           imgLink={"/images/servicehero.jpg"}
