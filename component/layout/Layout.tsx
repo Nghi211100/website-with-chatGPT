@@ -19,6 +19,9 @@ export default function Layout({
     localStorage.setItem("language", language);
     i18n.changeLanguage(language);
   }, [language, i18n]);
+
+  console.log(i18n.language);
+
   return (
     <>
       <Head>
