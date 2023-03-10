@@ -7,39 +7,16 @@ import Portfolio from "@/component/home/Portfolio";
 import Services from "@/component/home/Services";
 import Contact from "@/component/home/Contact";
 import { useTranslation } from "react-i18next";
-import {
-  LifebuoyIcon,
-  NewspaperIcon,
-  PhoneIcon,
-} from "@heroicons/react/24/outline";
 import Specialize from "@/component/home/Specialize";
 
 export default function index() {
-  const { t } = useTranslation();
-  const cards = [
-    {
-      name: t("headersection.home.card-one.name"),
-      description: t("headersection.home.card-one.description"),
-      icon: PhoneIcon,
-    },
-    {
-      name: t("headersection.home.card-two.name"),
-      description: t("headersection.home.card-two.description"),
-      icon: LifebuoyIcon,
-    },
-    {
-      name: t("headersection.home.card-three.name"),
-      description: t("headersection.home.card-three.description"),
-      icon: NewspaperIcon,
-    },
-  ];
+  const { t, i18n } = useTranslation();
   return (
     <>
       <Layout title="OmniStack - Home Page">
         <div className="w-full h-full text-center">
           <div className="bg-white dark:bg-[#001e3c]">
             <HeroSection
-              cards={cards}
               title={t("headersection.home.title")}
               description={t("headersection.home.description")}
               imgLink={"/images/homehero.jpg"}
@@ -71,3 +48,4 @@ export default function index() {
     </>
   );
 }
+

@@ -1,4 +1,6 @@
 import Head from "next/head";
+import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import Footer from "./Footer";
 import Header from "./Header";
 import LanguageSwitcher from "./LanguageSwitcher";
@@ -10,6 +12,13 @@ export default function Layout({
   children: any;
   title: string;
 }) {
+  const { i18n } = useTranslation();
+  const language =
+    (typeof window !== "undefined" && localStorage.getItem("language")) || "en";
+  useEffect(() => {
+    localStorage.setItem("language", language);
+    i18n.changeLanguage(language);
+  }, [language, i18n]);
   return (
     <>
       <Head>

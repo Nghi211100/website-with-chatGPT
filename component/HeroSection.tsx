@@ -2,13 +2,11 @@ import Image from "next/image";
 import { ReactElement } from "react";
 
 export default function HeroSection({
-  cards,
   title,
   description,
   imgLink,
   button,
 }: {
-  cards?: any;
   title: string;
   description: string;
   imgLink: string;
