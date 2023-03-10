@@ -46,7 +46,9 @@ const LanguageSwitcher = () => {
       <Select
         className="block rounded-lg mr-5 overflow-hidden text-blue-500 shadow-sm border border-gray-300 bg-white dark:border-[#183b61] dark:bg-[#001e3c] text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent"
         classNamePrefix="select"
-        value={options.find((item) => item.value === language || "en")}
+        value={options.find(
+          (item) => item.value === (language ? language : "en")
+        )}
         menuPosition={"fixed"}
         isSearchable={false}
         onChange={handleLanguageChange}
